@@ -1,0 +1,431 @@
+a44cdb0f66cb9ee3ca67a8351f38bf9880e23b14|2025-10-13 16:40:26 +0200|Valentyn Zamiliukhin|UI: Refactoring of Inboxes page [ELK-1032]
+21dfea53235467b697d8f29f0e5c7424cc39fc91|2025-10-10 13:26:59 +0200|valik375|Sibling attachments sync [ELK-1069]
+75829128acbc3b20793d56fcfdff52fa286fc908|2025-10-10 21:59:31 +1100|Jack Murray|Update victorian inspectorage to integrity oversight victoria locale
+137ebe76d6e4fe614f4836878cbaa0d572df0dd2|2025-10-10 12:44:44 +0200|Valentyn Zamiliukhin|UI: Refactoring of report attributes [ELK-1021]
+bda3ab5b33dac82f36154f640c1c56bf84f22e99|2025-10-10 09:17:00 +0200|Valentyn Zamiliukhin|UI: Refactoring of Information articles [ELK-1025]
+deea8e799803740a0a813f016dd32a8724775d4e|2025-10-09 18:55:48 +0200|Valentyn Zamiliukhin|UI: partner tasks index [ELK-1062]
+19da34d6757f59b211585f61d4b0f82581255997|2025-10-09 16:50:31 +0200|valik375|Handle error when Saving a composite attribute with duplicate choice names [ELK-1066]
+2825320c0020af545e462765d970847290cfc504|2025-10-09 14:07:44 +0200|Valentyn Zamiliukhin|Add search on reports list in partner dashboard [ELK-951]
+f0963119e109530076c1793809ebc4627b776106|2025-10-08 10:12:20 +0200|valik375|Language dropdown doesn't show when org has lots of languages [ELK-1058]
+4079cb00c37847ee4f95f9b201d8d8d2b208f324|2025-10-07 20:13:53 +0300|Andrii Kylymnyk|repeatable report fields in reports table [ELK-1049]
+44d8069107c334bd6cf3b88fae834282e235b718|2025-10-07 14:22:58 +0200|valik375|“Create a report” from shared Snapshot shows Snapshot instead of Report [ELK-1053]
+5243a163f43b035b241b9c52898c84ead94f7ecd|2025-10-07 14:17:06 +0200|Valentyn Zamiliukhin|UI: Refactoring of report types [ELK-1008]
+9cac55c0b0ae930ff23aec44ca59a47a32cc793b|2025-10-07 14:54:32 +0300|Andrii Kylymnyk|Report history and last activity refactoring [ELK-953, ELK-994]
+e76f6679fe699fef8d5817752bfbbc3e66a194b3|2025-10-07 13:54:10 +0200|Valentyn Zamiliukhin|UI: Refactoring of levels page [ELK-1050]
+e498f9608790bebbbd45fdef370d4cc79abbc0ce|2025-10-07 13:51:57 +0200|Valentyn Zamiliukhin|UI: Refactoring of Roles page [ELK-1047]
+ca17f1ac3b7d02a348ed3f813bb20a1345d2e165|2025-10-07 13:49:20 +0200|Valentyn Zamiliukhin|UI: Refactoring of Statuses page [ELK-1046]
+d74848748798c3bbfe41f6f6e8873292bf771c44|2025-10-07 13:42:03 +0200|Valentyn Zamiliukhin|UI: Refactoring of Tags page [ELK-1043]
+a79386f3214501050ff6e61213774c8670e89e1b|2025-10-07 12:46:40 +1100|Jack Murray|Fix grammar
+13a856fd20ee84a6913b57d16ed7d207425d388d|2025-10-06 15:56:38 +0200|Valentyn Zamiliukhin|UI: Refactoring of report page component [ELK-959]
+cedd068b74c0c74600dbc7cc766f1d7e8b4c0d3c|2025-10-03 16:27:40 +0200|Valentyn Zamiliukhin|Unnecessary GET request after Snapshot deletion [ELK-1034]
+ff593060358cdc193ee9e77105c751acaf951fba|2025-10-02 23:10:23 +0300|Andrii Kylymnyk|sort by date in snapshot history [ELK-1027]
+f8db10a7377719522fc4791a875deb335ffb03cd|2025-10-02 22:01:16 +0200|Valentyn Zamiliukhin|Create a report from snapshot in the same org [ELK-1014]
+e7a277c8fef6827da49fb6204409cb99c02c4515|2025-10-02 17:43:22 +0200|Valentyn Zamiliukhin|Share a snapshot with sibling org
+436db9aea6f1c9876561d0ba778623b3c8fdce96|2025-10-02 14:48:46 +0200|valik375|Group step is incorrectly displayed in Filters in report builder [ELK-821]
+f9b4baa624713c88a2d85dfd47a27e252832361c|2025-10-02 13:59:19 +0200|valik375|Don't show exclamation mark next to completed task due dates [ELK-746]
+9f3d1d95f1d7d0893cf9cb8572345616a556c8bb|2025-10-02 10:45:18 +0300|Andrii Kylymnyk|update multiple choice step other option submit data [ELK-992]
+0827e7718273aed063885d851609ae48b2862e01|2025-10-02 09:11:07 +0200|valik375|Fix of [ELK-998]
+220524cff33abc23467ef0b91e2544bf64b9cf47|2025-10-02 09:05:43 +0200|Valentyn Zamiliukhin|Reporter sees Ukrainian text instead of English in Messenger [ELK-1001]
+601df74fde4e481c606b2fcc5e69548c9793b0d9|2025-09-30 18:19:34 +0300|Andrii Kylymnyk|show original language for translated chat messages [ELK-941]
+ad801fc194e7f61e80241772d4c058c4a73a3532|2025-09-30 16:25:24 +0200|Valentyn Zamiliukhin|Audit Log Export ignores selected period [ELK-1004]
+dc5d319fa3e361c011b75991a1bdb137f3219a58|2025-09-29 09:43:04 +0200|valik375|Fix UI Team management [ELK-1003]
+81fb6fbccb9b1cabefd297789c61ebde0e2c1af9|2025-09-29 09:16:44 +0200|valik375|Fix of [ELK-998]
+55449050cc4523bdd930466c7c548fdaf7226399|2025-09-26 15:42:44 +0200|Valentyn Zamiliukhin|UI: Refactoring of Audit Log page [ELK-999]
+fc9055c208fe9c91daa5d58337cf779d03d9e1b9|2025-09-26 16:16:46 +0300|Andrii Kylymnyk|show snapshot source [ELK-980]
+79b30f0d1317d752c8279169f0124cb76a64fccb|2025-09-26 15:16:27 +0200|Valentyn Zamiliukhin|UI: Refactoring of User Management page [ELK-998]
+ecb3875e829f65fbb322d001752f3f7b924b5d19|2025-09-26 11:48:07 +0200|valik375|Fix of [ELK-983]
+04fe06a2fef76c247f8e64758f38b46d599021bb|2025-09-26 11:36:52 +0200|valik375|Fix of [ELK-990]
+3cff3642518aa405bc0424305bf0515f223d4f3c|2025-09-26 10:08:16 +0200|Valentyn Zamiliukhin|UI: Refactoring of report chats page [ELK-946]
+ea435e70ff3287f0afce16000f3ba6138a874a1a|2025-09-26 09:13:33 +0200|valik375|Fix of [ELK-987]
+d7c4cd7d1022f917a2f1eccb83f454033c626c8f|2025-09-26 09:09:39 +0200|valik375|Fix of [ELK-983]
+3addc34ffa69c43c454d58f5d4cc5badb31fe87b|2025-09-25 10:02:55 +0200|Valentyn Zamiliukhin|Allow tasks to have a time as well as a date [ELK-743]
+3bb3c318f66efda203944d291c2859446b6be1f8|2025-09-25 09:49:29 +0200|Valentyn Zamiliukhin|UI: refactoring of Team Management page [ELK-990]
+6ace4cedc50b3cb7247807f95dd70ecdf0749b25|2025-09-25 09:38:11 +0200|Valentyn Zamiliukhin|UI: Refactoring of analytics overview page [ELK-987]
+b06c9f249b1694cf61a4d362396922c6c0190f94|2025-09-25 09:34:15 +0200|valik375|Fix of [ELK-983]
+176a7deebca29433ea1d9f8abb4243e1f4a3423d|2025-09-25 09:33:25 +0200|Valentyn Zamiliukhin|Improve Tasks table layout and sorting [ELK-983]
+a2bc82cde3d298b66692eec6fb051b9a75f93f57|2025-09-25 01:20:43 +0300|Andrii Kylymnyk|fix opening of report assignment modal
+8f7979108d45a2e1723dd0b93678522689e6c263|2025-09-23 16:05:29 +0200|valik375|Fix of [ELK-968]
+a3035b6478da32c371feae59192f6472f83c2512|2025-09-23 16:03:09 +0200|valik375|Allow text search in dropdown list in reporter flow [ELK-866]
+86f67388595d819c50861c897c0ad6b6cf69cdcb|2025-09-23 10:16:07 +0200|valik375|Fix of reporting pathways page
+306222f4e434edbfceea1e466e8102dd32373473|2025-09-22 18:17:42 +0200|Valentyn Zamiliukhin|UI: Refactoring of report responses [ELK-890]
+b1162409e20970334e6a81a7ecd017bbf8ad3899|2025-09-22 17:19:53 +0200|Valentyn Zamiliukhin|UI: Refactoring of Surveys page [ELK-968]
+8276739f35304e5a5f06a55754f087a1f7146f82|2025-09-22 17:06:44 +0200|Valentyn Zamiliukhin|UI: Refactoring of page sidebar [ELK-965]
+b925fc38a5488c136a7cabfab0c4215428a97501|2025-09-22 11:47:34 +0200|Valentyn Zamiliukhin|UI: Refactoring of NavigationTabs [ELK-778]
+f4321fbd42fc3a9ddea60658811cded219646db2|2025-09-22 12:34:06 +0300|Andrii Kylymnyk|update deletion of repeatable report attributes
+eda7e52b6b4660ecf7302287811a52d42fd55101|2025-09-22 10:13:57 +0200|valik375|UI: Incorrect display of chat participants [ELK-952]
+e73651c1350827bebea8a7f400268a402860843f|2025-09-19 21:43:35 +0300|Andrii Kylymnyk|Fix repeatable report attribute
+6e0d4df27e8bc93aaaaf7979a3d3825122c171d0|2025-09-19 16:44:41 +0300|Andrii Kylymnyk|Repeatable report attributes [ELK-915]
+da759e6f4776976b9467d293347ab518bcbadb34|2025-09-19 12:04:42 +0200|Valentyn Zamiliukhin|UI: Task Categories [ELK-948]
+1664bd6a66cff73c314bbcb41faec09e8c8690f2|2025-09-18 14:15:33 +0300|Andrii Kylymnyk|fix tasks page pagination after reload
+db7a99c3ef719ac206eaf7616cfb9026a88530c5|2025-09-18 10:35:25 +0300|Andrii Kylymnyk|Tasks page [ELK-872]
+6e9b7079447a1a2de6c413b0f4088e6b4326060e|2025-09-18 09:16:24 +0200|Valentyn Zamiliukhin|UI: Refactoring of report files page [ELK-939]
+93f1bfef8d3a16c3e990649df71ddd4bc2ece830|2025-09-18 09:14:08 +0200|Valentyn Zamiliukhin|Reports table shows empty page after Reporter submits a Report [ELK-944]
+d5e340746db0caa904737fb492dde70010dfe28c|2025-09-16 12:26:06 +0200|valik375|Hot Fix of history locales
+450a865de4f4f44afbd38332db256a71fd8445c9|2025-09-16 09:52:30 +0200|valik375|Fix Organisation details [ELK-937]
+a6a02eb0b4c38545dcdeaeaf62d82c1069e9f0eb|2025-09-16 09:50:23 +0200|valik375|Fix: Content from original Snapshot displayed after creating a Clone Snapshot [ELK-935]
+c2497e8196486812dfd6fdd5fd4d880ee09683d5|2025-09-15 20:44:22 +0300|Andrii Kylymnyk|Allow other option in multiple choice step auto fills [ELK-871]
+847b4789d0620f1a57c265a593dbdb68f439f32c|2025-09-15 16:58:41 +0200|valik375|Add padding to "Create" button on Organization Creation page [ELK-923]
+a0201649067fe6c04f6a6b1602cf74cee913d7ec|2025-09-15 16:51:27 +0200|Valentyn Zamiliukhin|UI: Refactoring of report history [ELK-932]
+39ed475b29d1f556e55d5391b47591e125801c01|2025-09-15 16:45:19 +0200|Valentyn Zamiliukhin|Verify Behavior When Updating Choice Attribute with Nested Options [ELK-600]
+d59e86a975c7216adc04ca8e2fc9d924bdc18765|2025-09-15 16:39:35 +0200|Valentyn Zamiliukhin|Tip is displayed broken on step in flow [ELK-926]
+564999f735136ae693aa0a87a219561f2e8f2cfa|2025-09-15 14:37:16 +0200|valik375|Incorrect redirect after creating a Clone Snapshot, Content from original Snapshot displayed after creating a Clone Snapshot [ELK-934, ELK-935]
+e2a049bba29109de2440b182a8cc9e38c04541a2|2025-09-15 09:16:23 +0200|valik375|Fix: add a clone snapshot button [ELK-911]
+ba8a683512934ac4bf0a457b9622800332a84c48|2025-09-15 10:05:39 +0300|dependabot[bot]|Bump axios from 1.8.2 to 1.12.0
+99073ed999c044252d19dc915668f90a4af3723e|2025-09-12 18:04:35 +0300|Andrii Kylymnyk|hide call settings item from sidebar if feature disabled
+b9e231d33f03f0ab8491fd6f1692b2cb7b157af6|2025-09-12 17:59:54 +0300|Andrii Kylymnyk|update call settings page
+621fefe626ce1d1745830884567ae7abd07c9c55|2025-09-12 16:17:44 +0200|Valentyn Zamiliukhin|UI: add a clone snapshot button [ELK-911]
+f046131573fe2691466daf3038ac1df9e14e37d6|2025-09-12 16:04:03 +0200|valik375|Fix: Restrict Snapshot Editing by Viewer [ELK-891]
+8bdf7bccd57818f9ebfac6860c5aba1690a17216|2025-09-12 12:41:45 +0200|Valentyn Zamiliukhin|UI: Refactoring of AttachmentPreviewModal [ELK-780]
+87506ab51b2c225e699440dbc97839f70458dafd|2025-09-12 13:06:40 +0300|Andrii Kylymnyk|Select voice [ELK-902]
+d45c838480da54a05a6ac03ea81094471d823ff6|2025-09-12 11:50:37 +0200|Valentyn Zamiliukhin|UI: Restrict Snapshot Editing by Viewer [ELK-891]
+7051ba90fd70c771905f7ca5440ef223ba59314f|2025-09-12 09:41:30 +0200|Valentyn Zamiliukhin|Show the selected Manager for "Assign a member to this inbox" [ELK-910]
+2b6ff627dd572e9a7ba3b5bd0941946d3e36a9a8|2025-09-12 09:40:22 +0200|valik375|Fix of calls log page title [ELK-852]
+dd06dd9e0dd98589d3f47578be67e1fbe0e06d2b|2025-09-12 09:37:32 +0200|valik375|Nested option in Multiple Choice attribute is removed after saving [ELK-921]
+b0855a3e9ad92547f00c1b6c96c279a3ddef436c|2025-09-11 17:32:55 +0200|Valentyn Zamiliukhin|Correspondent can create a report from snapshot [ELK-908]
+41e9c7b016ffd420b28de31743d63a57652948f0|2025-09-11 12:57:36 +0200|valik375|Bug: cannot create inbox for myself [ELK-895]
+5f5ed6c16cadd8441e1997163a968527526b485b|2025-09-11 10:41:00 +0200|valik375|Fixes: create Calls Log page [ELK-852]
+2dfd1aa82932259c31f62a2bc221da44209b8386|2025-09-11 11:09:50 +0300|Andrii Kylymnyk|code cleanup
+7cdb4fbc47a3ed68bb70f5f72cd67e5573a5783a|2025-09-11 10:16:33 +0300|Andrii Kylymnyk|code cleanup
+d1c45ab2adbef064fd8c21a37df62422c887b33e|2025-09-11 10:03:47 +0300|dependabot[bot]|Bump element-plus from 2.9.0 to 2.11.0
+ff61c79ad000f00e43adbd9a5768abd4f51900c3|2025-09-10 21:03:46 +0300|Andrii Kylymnyk|hide tags in report details when feature is turned off [ELK-913]
+95a2cd06162e168db6ba34d3a4b32ee5bbc1ee23|2025-09-10 15:06:43 +0200|valik375|Manager sees "Export report" icon after feature is disabled [ELK-919]
+c3b2a23d469b0eb112f25e93f61df2bf0e6089e0|2025-09-10 15:06:28 +0200|valik375|Manager sees "Export report" icon after feature is disabled [ELK-919]
+f9c2fa3c3d405c13ad5fa3370f8a71a3378b1f36|2025-09-10 15:41:26 +0300|Andrii Kylymnyk|update feature toggle error handling
+cf44dc18c762cd1f6c53d82b10b800d3cb22d598|2025-09-10 14:31:28 +0200|Valentyn Zamiliukhin|Fixes: support report field inputs in automations [ELK-862]
+b820a78b12b0da1b912a051cdd6ff14930d5f9d5|2025-09-10 21:41:31 +1000|Jack Murray|Improve create new org descriptions
+14c6051706f70e8bb5151ca296b37d697e7b5adf|2025-09-10 13:01:03 +0200|Valentyn Zamiliukhin|Bug: cannot create inbox for myself [ELK-895]
+d5649ce7e36746fe9b40c04bdb524ca3436f92fb|2025-09-10 12:49:43 +0200|Valentyn Zamiliukhin|UI: create Calls Log page [ELK-852]
+c8b31de5a2e2373471e1d5998160df18f4b06a02|2025-09-10 12:23:12 +0200|Valentyn Zamiliukhin|Refactoring of AppLayout
+dc43b6c0dc8fb6b4ac77758699718cc2eed00136|2025-09-10 13:21:26 +0300|Andrii Kylymnyk|make not editable system report fields in report details [ELK-914]
+9e189f1b5f95e4c49bb0b42687b69cfc2ee8eb13|2025-09-10 10:31:51 +0300|dependabot[bot]|Bump vite from 7.0.5 to 7.0.7
+1ea710f191e2b776e3812d6d45c2a86d92bc37a6|2025-09-09 22:51:37 +0300|Andrii Kylymnyk|handle feature update loading [ELK-849]
+f56b3c578903851a5fe682c4fbbc10efedee7cd3|2025-09-09 16:28:53 +0300|Andrii Kylymnyk|fix securemail session expired redirection
+5c7a577a093879c0f40d2a87e74d68f3480ee628|2025-09-09 16:01:55 +0300|Andrii Kylymnyk|fix securemail chats redirection
+7fff2d66cd2cbf3a582b1fa2590bd0f814454a50|2025-09-09 15:43:33 +0300|Andrii Kylymnyk|fix period filter [ELK-907]
+8a11d87c72279f295bf1d5e0be1241669eecaf05|2025-09-08 22:01:04 +0300|Andrii Kylymnyk|update securemail snapshot token expiration logic [ELK-896]
+50f33e542bcfc146d73ccef3034716b29a723a68|2025-09-08 14:26:05 +0300|Andrii Kylymnyk|fix analytics report fields filter request [ELK-899]
+56a3db8eeb3334fe1ff99c3e72331fd71dbea4ce|2025-09-05 20:10:56 +0300|Andrii Kylymnyk|fix report attributes count in table
+8592213aa035801573fbe32b7ba052b58d6b21a0|2025-09-05 18:34:17 +0300|Andrii Kylymnyk|update report attribute filters
+9578bfd9b11d139546a5c79ca089e47f84ea4e95|2025-09-05 16:48:35 +0200|Valentyn Zamiliukhin|UI: support report field inputs in automations [ELK-862]
+63ea208c80ef1fece438ef3d384791d0d09bde8c|2025-09-05 16:08:04 +0300|Andrii Kylymnyk|composite fields values in snapshot variables [ELK-892]
+57c950585b6f27d80158a0f2dc41e2669fdda8fd|2025-09-05 12:30:13 +0200|valik375|code cleanup
+940c50d8076fe87e21ce34b3c85bcbdf1836954b|2025-09-05 11:37:37 +0200|Valentyn Zamiliukhin|UI: Refactoring of report overview page [ELK-778]
+28a782ac53c3b9a3b89fb525f04558c5ac8c4e23|2025-09-05 12:37:04 +0300|Andrii Kylymnyk|Show user avatar for group messages [ELK-749]
+5c2895fcabda9a2f446b900569d0826c5554a8a1|2025-09-05 11:28:00 +0200|Valentyn Zamiliukhin|UI: Refactoring of report details page [ELK-882]
+7027d5fe7bf230e923ecc1a4096418c1e0f750e0|2025-09-05 10:56:02 +0200|Valentyn Zamiliukhin|Add Tooltip for Report types dot [ELK-605]
+6ffc9879bac2eafc89db785bfb89fe4158c9d817|2025-09-05 10:27:02 +0200|valik375|Fix of UI: disable report controls for viewer [ELK-733]
+8537ecf0270f3ecb48fc0a211b28118e81b50984|2025-09-04 20:32:13 +0300|Andrii Kylymnyk|fix report fields validation in flow editor
+67176ebb04521b16a99e74bf418468e5bb8adc6c|2025-09-04 16:58:21 +0200|valik375|Highlight Invalid Field on Attribute Creation [ELK-884]
+c57f2d0ef12d356d48db2419e0331f61fb16ab77|2025-09-04 13:17:27 +0300|Andrii Kylymnyk|update report attributes filters [ELK-848]
+7148ad126be7d1406a6601b46363c4c7b10424f8|2025-09-03 20:59:25 +0300|Andrii Kylymnyk|do not send blank inbox phone [ELK-868]
+8fea10148d6b6eb0eebf9e9ebc35e8ba2ebb5e57|2025-09-03 16:14:05 +0300|Andrii Kylymnyk|update report attributes structure in flow editor [ELK-847]
+11f890d209de18b6bb42807544a371b45ffc71e0|2025-09-03 14:21:22 +0200|Valentyn Zamiliukhin|Viewer report access
+764b4e5fde195b7919b2026e9b387e860daa2c60|2025-09-03 13:22:55 +0200|valik375|code cleanup
+b69242ab93f13217a94790c0391436baf25c3974|2025-09-03 12:11:27 +0200|Valentyn Zamiliukhin|500 error when previewing uploaded file in Snapshot [ELK-822]
+c93357a9894e132ba39054fcd3f743403df0a107|2025-09-03 10:58:34 +0200|Valentyn Zamiliukhin|UI: improve Phones [ELK-859]
+db4521b5b8927e2746b1dc359f5d4768419439db|2025-09-02 17:54:37 +0200|valik375|code cleanup
+08a464da43d3143efbd5a9320c138bc5e85c7a31|2025-09-02 11:54:08 +0200|valik375|code cleanup
+e5784eb664accdde8820daabba071df92a81f628|2025-09-01 21:03:42 +0300|Andrii Kylymnyk|display composite report fields on reports index [ELK-828]
+81118ffc203687d277f3c632aa2250b3ba31673a|2025-09-01 17:04:11 +0200|valik375|continue with new attribute modal
+d9356cff18243a751ccc068b3cbeb3ea9069c56a|2025-09-01 15:52:54 +0300|Andrii Kylymnyk|show composite fields in report details for analytics
+642d725501f66727c32926f29aea7baf07a3e31f|2025-09-01 13:53:42 +0300|Andrii Kylymnyk|show unset for reporter notifications field [ELK-845]
+20569258152a79fab3f9a296c3f435ee0554053d|2025-08-29 18:57:10 +0300|Andrii Kylymnyk|composite report fields in report details
+62ab9ac4d0a300de27149e344527c5da6f332822|2025-08-29 18:26:17 +0300|Andrii Kylymnyk|composite report fields in report details [ELK-827]
+8e309865ef2fcf3374b4c70036d053336969f600|2025-08-29 17:42:02 +0300|Andrii Kylymnyk|add edit and save logic
+3fbeab5183da71285ec4c1bd645ddc8b8458f742|2025-08-28 19:51:21 +0200|valik375|remove old create new button
+84dee1aa3ba6b1e0bae3915dad8d6029d1db4c03|2025-08-28 19:50:22 +0200|valik375|update validation logic
+37d85181cf97469b1945e8a2051c0642cfc9fe79|2025-08-28 19:42:58 +0200|valik375|UI: allow to have multiple inputs in report field [ELK-815]
+59d9c50f28b739165bffcdbcb7bcf20ee32b032d|2025-08-28 16:49:08 +0300|Andrii Kylymnyk|fix case note actions [ELK-835]
+be6d5c342248b3be0ea868fe40e8267d37638cb5|2025-08-28 14:32:44 +0200|Valentyn Zamiliukhin|UI: Refactoring of Report Header [ELK-757]
+228c4f3b6c4491f1bd8ad099ed5e6affccbc373b|2025-08-28 11:54:36 +0300|Andrii Kylymnyk|exclude description step from phone channel flows filters [ELK-832]
+1aaf1a4223ee7bfadf558221feba3480f5885991|2025-08-27 19:42:31 +0300|Andrii Kylymnyk|fix report attribute slug [ELK-811]
+0a0da72e110fe533fda29558fe3571c83d5a0bd3|2025-08-27 16:33:44 +0200|Valentyn Zamiliukhin|UI: Refactoring of manager reports page [ELK-667]
+d09b731b59f37304e04e9fafd1e87c0174239c87|2025-08-26 21:49:53 +0300|Andrii Kylymnyk|show translated sentiment step [ELK-798]
+6da1062f6e1803a090c585e74ddcc013903e2cea|2025-08-26 20:24:54 +0300|Andrii Kylymnyk|add required field indication in flow editor [ELK-826]
+bc43559cdedc8c8ed69c20e5a37a98762a3d0e17|2025-08-26 19:35:02 +0300|Andrii Kylymnyk|fix level indicator in report details page [ELK-806]
+15324d448fd4551981bd810b099af6fedde2445a|2025-08-26 11:47:52 +0200|valik375|Handle error message when creating Report Attribute with duplicate slug [ELK-808]
+53537f0384928e8df3cf2d9839f3a94f251f79cc|2025-08-26 17:10:30 +1000|Jack Murray|Fix reporting pathways not displaying flows without channel field
+80c19a4347606313e357aef8059791434612bd1f|2025-08-25 21:05:43 +0300|Andrii Kylymnyk|fix locale dates errors
+3d0c2ed734e2e1c0e584e4f04482ea2fc2778144|2025-08-25 19:29:24 +0300|Andrii Kylymnyk|add additional language options [ELK-745]
+e5d095aba02eebd82eedeb21155406dab0d67c2e|2025-08-25 13:56:07 +0300|Andrii Kylymnyk|fix closing of the report fields modal
+e8201a06edd41ed1cb4f5ebcc58c57327de44222|2025-08-22 21:29:29 +0300|Andrii Kylymnyk|fix composite list option translation in report responses
+3f031b4be57830c188fe26cd4fbd6fd8cf37ffb7|2025-08-22 18:22:18 +0300|Andrii Kylymnyk|fix survey list responses translation [ELK-782]
+f79b7a0eb83cb2ac9a6ab93a6506e6b7349e0ac3|2025-08-22 16:43:07 +0300|Andrii Kylymnyk|Voice reports
+470220dd1f7d502219acce0afda691ac7c45152c|2025-08-22 15:42:36 +0200|Valentyn Zamiliukhin|Permissions not displayed when creating a new Role [ELK-789]
+0fe31117c9141718dcc0a3ef983b3c15b8a159d8|2025-08-22 15:40:18 +0200|Valentyn Zamiliukhin|UI: do not allow to edit system report attributes (and show them at the bottom of report attr list) [ELK-775]
+10acfe93e180764e1c2099ada874ffd5f6aa8d3e|2025-08-22 15:04:26 +0200|valik375|Show original Correspondent URL for Snapshot on snapshot-created report [ELK-744]
+4c845fc12329cdb1dd8cebfa38db0749074b8f92|2025-08-22 13:37:25 +0200|Valentyn Zamiliukhin|Make individual in group profile visible in case notes [ELK-792]
+fa53218377a5841580b0e7e96424a7cca3d6543a|2025-08-21 14:59:14 +0200|valik375|"Reporter Involvement" section is incorrectly shown for Manager-created and Snapshot-based Reports [ELK-625]
+9fdb666e1efe18915d939e2f5edfffa9eecae5a8|2025-08-21 14:50:06 +0200|valik375|Fix of UI: Add a file viewing status panel by users in the file preview modal [ELK-696]
+6a208585ca867aa58381860cf3862af9c1dcf9b3|2025-08-21 14:38:00 +0300|Andrii Kylymnyk|missing history activities events [ELK-759]
+3dd3020d8f5a09175d020ee19094f3ebb6b5197b|2025-08-21 11:18:40 +0200|valik375|Fix of UI: Add a file viewing status panel by users in the file preview modal [ELK-696]
+164aba6be58830684bbdc5cfa48edfac683ff36f|2025-08-21 10:06:23 +0200|valik375|Fix of UI: detect links in text report attributes [ELK-762]
+3f5d79813c91a3be23efd91ee6e47c0dd08bd934|2025-08-20 16:40:07 +0200|valik375|UI: Phones CRUD [ELK-680] feature flag
+4cc7bfc22ad3bd95114a4d8d836cd41f5bbe9e47|2025-08-20 15:46:51 +0200|valik375|UI: detect links in text report attributes [ELK-762]
+89224745e1bed3feb5716001241ee0b3eecdd824|2025-08-20 14:36:11 +0200|Valentyn Zamiliukhin|Three-dot menu overlaps with other UI elements in mobile view [ELK-754]
+4633649b4b0fa8a2850f088ae71288cb4b18978a|2025-08-20 15:28:54 +0300|Andrii Kylymnyk|fix broken snapshot version request [ELK-773]
+f71298e7d4fb47a7fa97b1b634f0d44356e51308|2025-08-20 13:42:16 +0200|Valentyn Zamiliukhin|UI: Add a file viewing status panel by users in the file preview modal [ELK-696]
+0cc212a6410dbd2103d7af851514dc551668900f|2025-08-20 13:18:53 +0200|Valentyn Zamiliukhin|Add tabs to case notes/report attributes sidebar [ELK-739]
+74482d1ce1b5082c4ba7dc043cbe9a25fe31c8ca|2025-08-20 11:46:16 +0200|Valentyn Zamiliukhin|UI: Phones CRUD [ELK-680]
+c78563e723dc9e5a9b3c1c386df0c15cf8213a70|2025-08-20 11:14:02 +0300|Andrii Kylymnyk|fix history activities texts
+342f4551938b03833d76e54f85a19f067a0062fd|2025-08-20 11:02:53 +0300|Andrii Kylymnyk|fix privacy activity texts
+ad6174dca541efa059f4503369849ea30247b7f0|2025-08-20 10:56:51 +0300|Andrii Kylymnyk|fix report case note activity text
+443c001b97baa49bef54e6d6b2889fbc04867fa5|2025-08-19 16:12:11 +0300|Andrii Kylymnyk|fix current snapshot version history event selection
+918c9fd7be27d2ad64e1f4cea5be534c9fcf5285|2025-08-19 15:47:57 +0300|Andrii Kylymnyk|show snapshot history for all users [ELK-695, ELK-769]
+1ad47615926aedda6f191104eea529b488386653|2025-08-19 10:09:31 +0200|valik375|Fix of ELK-760
+1765413d9735df10f3b802678bbaa5cb864fb566|2025-08-18 22:41:09 +0300|Andrii Kylymnyk|Show Snapshot viewing activity in the History tab [ELK-695]
+b7780c66715d3f902963a0a524a080ec1faddde9|2025-08-18 22:37:06 +0300|Andrii Kylymnyk|fix flow editor modal default tag on open [ELK-750]
+9dd04b42b4a9b42c69d831264428a1537829ea45|2025-08-18 22:28:29 +0300|Andrii Kylymnyk|fix delete modal confirmation message [ELK-752]
+e5e599b5815124781b7bf534a8be940a4e100f36|2025-08-18 22:20:17 +0300|Andrii Kylymnyk|Align Activity in Reports table with History in Report [ELK-753]
+babfaf41758084661bbc77042aba8de583b6eeef|2025-08-18 21:56:43 +0300|Andrii Kylymnyk|fix join link page [ELK-758]
+973a35a72e06f96472c2b130e1ff0a51c38e7a52|2025-08-18 09:23:38 +0200|valik375|Preview doc/excel files [ELK-760]
+992ec4f4e1c45b608ff3b1f9fcea91d6a0f55b02|2025-08-15 15:28:39 +0200|valik375|Three-dot menu overlaps with other UI elements in mobile view [ELK-754]
+737453ffc27111ed79b864f4f4effbbbe6439a0c|2025-08-15 15:22:04 +0200|valik375|Hot fix of report attribute modal
+8bc8e3df98a42f320eac7c867b77eb58b9a451ea|2025-08-15 14:41:13 +0200|Valentyn Zamiliukhin|Keep the "Report attribute" modal fixed [ELK-724]
+07a97a81fce82a7af3c755cc6d2d67ac55d4d60d|2025-08-15 21:31:33 +1000|Jack Murray|Fix overly aggressive Rollbar data filtering [ELK-747]
+c64c535f009819558cc3e93575ace4b92e26a034|2025-08-14 22:41:33 +0300|Andrii Kylymnyk|fix attributes and tags texts
+3c9876679e5d29837948fc0c72ebfcd36bcb32b7|2025-08-14 22:39:22 +0300|Andrii Kylymnyk|Update report Case Attributes and Tags display [ELK-740]
+c764be7ffb816568d410eb81552e3d167aefd5a8|2025-08-14 15:03:54 +0300|Andrii Kylymnyk|Fix multiple choice step option validation [ELK-719]
+52fb79b5148dbec8ba3d091bb31666ce0cc7963f|2025-08-14 14:01:53 +0200|Valentyn Zamiliukhin|Snapshots tab is visible when there are no shared snapshots [ELK-715]
+e14bf8830bffc2d50c164f28b9cfc8c7c8903c67|2025-08-14 09:40:58 +0200|valik375|Out of Office incorrectly shown for Group Inbox [ELK-506]
+4d30259b5a390ddfb9b1094f8a42ecf8975ebfb0|2025-08-13 13:08:09 +0200|Valentyn Zamiliukhin|Prevent error banners from overlapping [ELK-717]
+7ff4f170ce9e73ad26b69bce0a712bb748ad998f|2025-08-12 23:03:33 +0300|Andrii Kylymnyk|fix apexcharts errors [ELK-712]
+c1ae469a31a85980f5304a99fb22388593ce58ca|2025-08-12 17:01:49 +0200|valik375|Fix of [ELK-697, ELK-700]
+5dcb02c32484275e8e55e6bf00b4a5031c277baa|2025-08-12 13:45:43 +0200|Valentyn Zamiliukhin|“View available variables” non-clickable after page reload in Snapshots Template [ELK-714]
+8a6134baf1df329e5efabbcb0e1b3042e300f445|2025-08-12 12:56:12 +0200|Valentyn Zamiliukhin|Closing a report without selecting a REQUIRED attribute shows raw error key [ELK-716]
+4e922a4f3f233ceb8f16d72f14a12ba4e8ef27bb|2025-08-12 10:03:03 +0200|Valentyn Zamiliukhin|Make report attributes able to be marked as required, UI: Add checkbox labeled 'Snapshot' in report attribute modal below description field [ELK-697,ELK-700]
+f84e93419b156d2c69dcaee49b54729b5b504608|2025-08-12 09:34:37 +0200|valik375|Fix of [ELK-698]
+6249b2cf26bebd29501eff1a1f9cc6a2b9530597|2025-08-12 09:33:59 +0200|valik375|Fix of [ELK-683]
+362f31b33802b501a1e8b007fae14841f126deaa|2025-08-11 20:13:44 +0300|Andrii Kylymnyk|Fix audit log pagination [ELK-684]
+ae9ac3ee16ff2e511f1e459623424d3525c16fb1|2025-08-11 16:59:20 +0200|Valentyn Zamiliukhin|Show proper error when user without Contact role tries to create a report from snapshot [ELK-710]
+543571317e2a0511e122c1596627d384305e2c93|2025-08-11 15:11:59 +0200|valik375|Fix of ELK-706
+bee54fb326b871f2134400574344a1f0dba51b23|2025-08-11 10:27:18 +0200|valik375|Fix of ELK-683
+168fb909afbc52ed0afd902ea876532aa02dcb8c|2025-08-11 10:27:14 +0200|Valentyn Zamiliukhin|Export reports as XLS [ELK-706]
+f760db45bc7d48264a57a5b6d9500e3ce4afaac6|2025-08-11 10:26:50 +0200|Valentyn Zamiliukhin|Simplify dropdown when adding new steps [ELK-698]
+0d0593d85eeb9ee715cf52731cf62650047e5aed|2025-08-11 09:41:30 +0200|valik375|Fix of ELK-670
+c8151ca195a8d2ba57c904a21410c9277e540280|2025-08-11 09:08:11 +0200|valik375|Fix of ELK-673
+58b340d4ef3045aaf6f463e139b73c13a70ce5c9|2025-08-08 15:03:37 +0200|valik375|Remove "Pathway" Field from Reports Created via Snapshot [ELK-608]
+fbdb1d4db320aad9bb320c540a285a26eb5dca0a|2025-08-08 14:54:36 +0200|Valentyn Zamiliukhin|Broken Mobile Layout in Report for Manager [ELK-683]
+c5c87026dad79ea5b35454e58cdc37f52d851b6f|2025-08-08 12:03:05 +0200|valik375|Remove "Pathway" Field from Reports Created via Snapshot [ELK-608]
+2940b84d36daf4f824d885bdc43c07715440d015|2025-08-08 11:24:25 +0200|valik375|Duplicate time label "ago ago" in Snapshot History [ELK-699]
+3123be4e17e7f249e70c34d2ab5289e16d4ad1da|2025-08-08 10:12:29 +0300|dependabot[bot]|Bump tmp from 0.2.3 to 0.2.4
+4156d97e5c0244600269f618bf81685e238c76f4|2025-08-08 09:12:07 +0200|Valentyn Zamiliukhin|Privacy data issue in Summary [ELK-670]
+852da1c505e1c86f75e74738bfbb7990b6fcb27c|2025-08-08 09:11:35 +0200|Valentyn Zamiliukhin|Refactoring of flow layout
+7fb17602af04cb423c5ad878c094a51702da305a|2025-08-07 14:40:52 +0200|Valentyn Zamiliukhin|Refactoring of SecuremailLayout.vue
+12b3e0493f4a9b19a783eb4cff46a07d1127b2e4|2025-08-07 14:02:07 +0200|Valentyn Zamiliukhin|Refactoring of AdminLayout
+b8201367d47fc7c67bcdc1e5f15ab41af04b3816|2025-08-05 21:56:35 +0300|Andrii Kylymnyk|messenger locales [ELK-665]
+6f556fe73e460905f86b579e0c842206b45da554|2025-08-05 16:51:24 +0200|Valentyn Zamiliukhin|Allow SSO integration to be hidden from login page [ELK-647]
+e9214b39b236aba5b9a490243962749b760a0154|2025-08-05 15:13:01 +0200|Valentyn Zamiliukhin|Refactoring of Reporting Layout
+f981292eb89572a1114b1d5d00a4ee3bb452cdea|2025-08-05 10:46:42 +0200|Valentyn Zamiliukhin|Refactoring of SignInLayout
+d0dee02cffe66b4485429d2fec9758a3f1d5d7d7|2025-08-04 15:14:44 +0200|Valentyn Zamiliukhin|UI: Refactoring of manager Dashboard [ELK-666]
+5f6bf6f0dacda67f87f7efc07a0d7fd998b6f211|2025-08-04 11:04:30 +0200|valik375|Change export button text in Analytics overview
+05d5e9a5b2b14ed5c05815ba1c8b2bbf9a910dda|2025-08-01 17:52:58 +0300|Andrii Kylymnyk|Fix report tabs permissions [ELK-643]
+a9dc327273530549746e193d119c2fae606eff16|2025-08-01 15:02:19 +0200|Valentyn Zamiliukhin|Refactoring of root/src files [ELK-650]
+8a12d98fed7b82bab044294f5a69a2d3744766d4|2025-08-01 13:19:42 +0300|Andrii Kylymnyk|fix flow creation from template [ELK-638]
+6ddf345bc54fa6575f4756d95baf7e37f4ded139|2025-08-01 09:27:10 +0200|Valentyn Zamiliukhin|Display Translated and Original Survey Questions/responses in UI [ELK-645]
+8cadbfa1f0123c81750ab0538bf16eaa2f9d2e36|2025-07-31 10:49:48 +0200|valik375|Emoji button missing in Messenger input for Reporter the language [ELK-654]
+185a6e63ae45332fbe435555259aa314baedb59c|2025-07-30 22:51:04 +0300|Andrii Kylymnyk|fix step filter options translation [ELK-651]
+40815a97724e229912f6f9d0a423e51c1d691586|2025-07-30 22:06:09 +0300|Andrii Kylymnyk|Fix flow editor auto select validation [ELK-656]
+41fcdda18307024aa2f5894e0b1b16b9b8768ec8|2025-07-30 18:54:28 +0300|Andrii Kylymnyk|fix view button translation [ELK-655]
+4d29f13d1f7bdc38ea9afebdec1d82eb5260c23c|2025-07-30 16:20:15 +0200|Valentyn Zamiliukhin|UI: export analytics to XLS [ELK-649]
+600aa806aa3b00859a7b074ad26937cbed8d6be5|2025-07-30 16:19:14 +0200|valik375|HTML is displayed in "Activity" column after updating Report attribute [ELK-652]
+dc77905e0a42a04195742148eb512758a25f6ea6|2025-07-30 12:56:36 +0200|Valentyn Zamiliukhin|Report History is not translated after language change [ELK-644]
+9edd8054d1be4074f788a64d45687db0c5d218a7|2025-07-30 12:53:39 +0200|Valentyn Zamiliukhin|Filters Reset After Page Refresh on Reports Page [ELK-624]
+df7c1c9bfa6d1c3ee8218a07546a572ed5a8d654|2025-07-30 10:10:19 +0300|dependabot[bot]|Bump linkifyjs from 4.1.4 to 4.3.2
+04ec2c504e84b2295e085caf8c8d3a143694a9a2|2025-07-30 10:09:45 +0300|dependabot[bot]|Bump @eslint/plugin-kit from 0.3.3 to 0.3.4
+58b44dae8727230148c2253620e1746fa0b6db6c|2025-07-29 14:04:41 +0200|valik375|Incorrect Month Displayed in Summary Step After Switching to Ukrainian [ELK-642]
+7c40848d9f8a38a38a706b5c02d726ede81762a4|2025-07-29 12:30:22 +0200|valik375|Dropdown in Surveys is cut off / not fully visible [ELK-630]
+982d58522c5eaa6429cac8c6c63070ddc88eeefd|2025-07-29 10:36:40 +0200|valik375|UI: Two requests on change period in analytics reports [ELK-640]
+60c5fab40ae78791b57fdd73f5546fa906121ff0|2025-07-28 15:32:36 +0200|valik375|Update Template Badge Labels [ELK-639]
+0bdca50f22c1284aab364d7f510f55afbb2c6892|2025-07-28 14:37:19 +0200|valik375|Remove open close status from partner analytics
+512808ca31cc1e51294937f8bfec32559a3cda95|2025-07-28 14:24:17 +0200|valik375|"Analytics overview" is not pre-filled in the Title input [ELK-636]
+ccc3fc0b5f42adc62aeb47c332dde035ff028951|2025-07-28 13:47:56 +0200|valik375|Fix of two types of templates [ELK-553]
+dc42081843c562f05e56a066a8a37b567a809a1f|2025-07-28 14:15:19 +0300|Andrii Kylymnyk|fix update profile locale for unauthorized user
+a021ea8f4f6c1e0edfe576571e62c9039b4c66bd|2025-07-28 10:19:42 +0200|valik375|UI: Fix length of consent message [ELK-634]
+dab714e1748d21b57561c163fc1bcfc6fc1f1662|2025-07-28 09:48:59 +0200|Valentyn Zamiliukhin|UI: two types of templates [ELK-553]
+2abdf091b7173b41269af78fc163f6cfed937778|2025-07-25 17:12:58 +0200|Valentyn Zamiliukhin|UI: support custom_fields with both original and translated questions [ELK-584]
+672d6d170936c05397571b5a3bcbe19dd2b6d1c8|2025-07-25 17:56:28 +0300|Andrii Kylymnyk|update reporter profile locale [ELK-616]
+84ec1210d01d66a1b19d6b9386c1d91eb4782ecf|2025-07-25 09:33:10 +0200|valik375|Disable editing of report attribute slug input
+98e5e94ba7acdd6adc6537d7867cbac0a42f2979|2025-07-25 09:21:32 +0200|valik375|Incorrect message text after extended session expiration [ELK-599]
+e85628c2b312b423b989e972fe72d9266548d186|2025-07-25 09:12:32 +0200|valik375|Incorrect message text after extended session expiration [ELK-599]
+8f1a1273fda669833ed4693ea84116da4de47dc4|2025-07-24 13:18:29 +0200|valik375|Manager Sees All Tabs in Unshared Report [ELK-623]
+b73812ab4a2a87c6bf8b9c726b7034af95f1c614|2025-07-24 12:29:47 +0200|valik375|Fix of report attribute slug update
+ad5de617168017193dafd55378b2b6e7640ac395|2025-07-24 11:48:04 +0200|valik375|Fix of report attribute slug update
+f8499509641755edda598a9a2c6e098672f5dedd|2025-07-24 11:36:01 +0200|valik375|UI: Add filters to reports list on partner dashboard [ELK-582] & filters refactoring
+44536840445663e4ca4713800ef5c38a0b47a130|2025-07-24 09:24:41 +0200|Valentyn Zamiliukhin|Incorrect message text after extended session expiration [ELK-599]
+60d205d88713ed38a2f62a08c1744bea4bcdfe1d|2025-07-24 10:02:40 +0300|dependabot[bot]|Bump form-data from 4.0.1 to 4.0.4
+9dd57388af06202ad096ea123e7954acd92435bf|2025-07-23 09:42:54 +0200|valik375|Add sorting for labels in Partner filters
+a3991845f9126aecb2de0a55638422ca2021192f|2025-07-22 14:46:14 +0200|valik375|UI: Add filters to reports list on partner dashboard [ELK-582]
+29e284b55832f7b62b6cd988fb42788549ad6a25|2025-07-22 13:36:39 +0200|valik375|UI: Status is not displayed in report details [ELK-603]
+34536a776b62d796d17d34aeae6118f9bdc739e7|2025-07-22 09:39:07 +0200|Valentyn Zamiliukhin|UI: generate and edit report attribute slug [ELK-586]
+8efeae99266298e266a504f1bfb9ad2e33cfa6f5|2025-07-22 09:38:48 +0200|Valentyn Zamiliukhin|UI: Status is not displayed in report details [ELK-603]
+9cada2f288238c3a75e8d6eaefc8e6a1e14b3c10|2025-07-21 14:43:57 +0200|valik375|UI: Status is not displayed in report details [ELK-603]
+f7fa4e924ca67f21a0c7fc067136c45ee50ade23|2025-07-21 15:07:54 +0300|Nazar Komar|sync translations from frontend to s3
+ab2faae406dbcef5363ad0bd505733b7869a2077|2025-07-21 14:01:11 +0200|valik375|Fix ignore eslint cache
+9b1a9a2d052967ded4a9e01ba5ebf973f848f50b|2025-07-21 10:11:36 +0300|dependabot[bot]|Bump @eslint/plugin-kit from 0.3.1 to 0.3.3
+ce5deab9b6b59d683855f9adecb67fc52ff78ec4|2025-07-18 17:10:11 +0200|Valentyn Zamiliukhin|Snapshot access email form [ELK-288]
+a2d848845666e906fac7e2df8489ac60c3b01ed8|2025-07-18 13:46:44 +0200|valik375|Reporter Information Articles displayed instead of Manager Information Articles until page refresh [ELK-212]
+51a3e0e1d1c0a186f2f3f8474f0aa660ec964d55|2025-07-18 13:32:16 +0300|Andrii Kylymnyk|Update packages [Elk-596]
+2d1198969afac7324f5d16b6cb2b93308fc2a65a|2025-07-18 09:52:02 +0200|valik375|UI: Hide 'Created at' from partner dashboard organisation list [ELK-488]
+d42d1513863e8781da3ef25699ac70e21874bd43|2025-07-17 21:21:18 +0300|dependabot[bot]|Bump vue-i18n from 10.0.6 to 11.1.10
+ede53b1dba1773da406deed5d745beecb067d678|2025-07-17 17:15:01 +0200|valik375|SSO integration: cannot uncheck the ‘Use this SSO option for path’ checkbox [ELK-576]
+d305112e2608455511614360daa1e0a8580f5967|2025-07-17 11:19:55 +0200|valik375|Fix of group profile chat avatar
+dd817f6e1500e83b8fe6685a722d3d649dc6a0c3|2025-07-17 10:42:19 +0200|valik375|Allow text report attribute to be larger [ELK-593]
+cbcd362104ed3665b37abb7d90fd8d42ba56d620|2025-07-17 11:32:02 +0300|Nazar Komar|sync translations from frontend to s3
+305d523f31a19ec84403c5ca1f1f3d57aba81461|2025-07-17 09:51:43 +0200|valik375|Group profile individual user tooltip is hidden in chat [ELK-597]
+c6a54865a42a1ad0203cd4e2ffdf4e24b5f68427|2025-07-17 00:12:19 +0300|dependabot[bot]|Bump vue-i18n from 11.1.2 to 11.1.10
+b73116b6f00791c7f892d26773a4f6b4f88887ef|2025-07-16 20:25:48 +0300|Andrii Kylymnyk|fix privacy step restoring [ELK-594]
+411a83fb6b728100098b0afa008d52d857996d96|2025-07-16 17:04:58 +0200|Valentyn Zamiliukhin|Show reporting URL on Manager-Report Reporter Access modal [ELK-592]
+b50bb7a668521e79fd8131baffce48b829a9c506|2025-07-16 16:55:56 +0200|Valentyn Zamiliukhin|UI: Add filters to reports list on partner dashboard [ELK-582]
+9a82b689348b363dac4078f59de7ab456ba27cde|2025-07-16 16:55:37 +0200|Valentyn Zamiliukhin|UI: Move policies to composable [ELK-583]
+e008f32e7d5f64e8ffa8d50c7fff9e819170d44d|2025-07-16 16:43:17 +0200|Valentyn Zamiliukhin|UI: move services to composables [ELK-216]
+0208a97ad7f547d701a8addcf38a3d153098a264|2025-07-16 16:43:02 +0200|Valentyn Zamiliukhin|UI: Add filters to partner dashboard analytics [ELK-581]
+9c6ae147b1f5aab574396d34e0e7a092fc1495d6|2025-07-16 16:10:11 +0200|Valentyn Zamiliukhin|UI: Create Report access select component [ELK-571]
+1fb1641c23a1340757d859801a4cc3d9089a67dd|2025-07-14 10:23:37 +0200|valik375|Handle error when create organisation like as template [ELK-578]
+51498f424ac5a0927cfc66feac4be70cf5a05c09|2025-07-14 09:20:33 +0200|valik375|UI fixes for vue select in saas organization/details
+310bc651dbb7b07c5a96ac3f9c72615da764e369|2025-07-11 16:44:52 +0200|Valentyn Zamiliukhin|Front: Change report_type_id path [ELK-580]
+507ba1cb391266371d0be3a967437b894d38489e|2025-07-11 13:36:48 +0200|valik375|UI Fix for report types report from snapshot indicator
+5f3503c83d2dd1224048f7af9276b4425badc139|2025-07-11 13:03:19 +0200|valik375|Fix of report Name label in Create Report from Snapshot Modal
+cec64c36e8b449409c4f4bfebe6b27d0545de14c|2025-07-11 12:52:24 +0200|valik375|Hot fix of create report from snapshot login logic
+699df4c0f97af7f5e16ecd0902f4d68944ee0108|2025-07-11 11:31:00 +0200|valik375|Wrong form for updating Report Types [ELK-570]
+acb957f35f5631aeb9a84db25d544428707b9e6c|2025-07-11 11:13:51 +0200|valik375|Allow organisation to be removed from partner group [ELK-492]
+dfe8f2ab8651122c4e17b0bbf904e0cb94b89ef9|2025-07-11 10:45:09 +0200|Valentyn Zamiliukhin|UI: create report from a snapshot [ELK-535]
+c4eb8238abaf0d3c41414bbcba916db601518957|2025-07-11 10:05:47 +0200|Valentyn Zamiliukhin|UI: partner analytics [ELK-573]
+617a427b6329cac5f4439add73fe63b7b90ea338|2025-07-10 13:46:01 +0200|Valentyn Zamiliukhin|UI: clear all store data on user logout [ELK-217]
+08a99ecd36efd02bf692ded67d02948f81628fc2|2025-07-10 09:07:32 +0200|Valentyn Zamiliukhin|Improve UI in "Share Report" Modal [ELK-365]
+6e844aca5493f719e9c0e74a586cc21eac53e515|2025-07-09 10:19:30 +0200|valik375|Small fix for sibling select
+286624b437aba7edce861beb8fe387d845a73b5d|2025-07-09 09:54:23 +0200|valik375|Fix of [ELK-555, ELK-554]
+615f913611ba103828dd5d68b19c8966dba36044|2025-07-08 14:50:12 +0200|Valentyn Zamiliukhin|Organisation should have a sibling organisation [ELK-555], Report type for snapshot-to-report [ELK-554]
+187e648ce6897a6a8594624e5b16fcbf701aca0f|2025-07-08 10:07:54 +0200|valik375|UI: make Reporter Settings route import dynamically [ELK-361]
+8811706003fb24945b67df25370c255bf5704de9|2025-07-07 17:20:43 +0200|valik375|Fix hover for TODAY variable in Snapshot [ELK-390]
+25b9c961840934d5b86678b80d6c9c3a3714e7fe|2025-07-07 15:48:38 +0200|valik375|Prevent sending comments request if user doesn't have access (403 error) [ELK-453]
+26f2fd55071c07f43c438c015559223787a7bc7c|2025-07-07 13:50:20 +0200|valik375|Handle NAME_INVALID error on Profile [ELK-547]
+d327b3d56a1e6b2538ea04632e19de9ad4378ed6|2025-07-07 13:14:15 +0200|valik375|File Name in Upload Notification Overflows and Breaks Layout [ELK-541]
+ab67de1b31936d14dec1aba13dbf1881bf00e465|2025-07-07 13:01:05 +0200|valik375|Show report attributes tab on first report load (instead of case notes) [ELK-381]
+9f3024120999e234852f81b1c963ef1ed786db93|2025-07-07 11:00:40 +0200|valik375|"Multiple reasons" Displayed After Adding Report to Existing Group with Same Reason [ELK-563]
+61cf357744253f1f91ce8e5937d7eaf2bf74e136|2025-07-05 14:53:48 +0300|Andrii Kylymnyk|Fix choice field option handling and error display on save [ELK-360]
+2de6203abdffb899dca9e2c52202aa8c6784e2fa|2025-07-04 13:10:33 +0200|valik375|Group Profile Sees Manager's Multiple Chat [ELK-543]
+8147363da69e0ab29e858c83513fb61f3f8d8d36|2025-07-04 12:02:53 +0200|valik375|"View my report" button is not visible on mobile after report submission [ELK-551] & call
+88947a7baaaad08567fee421d01349a1f208deaa|2025-07-03 17:39:07 +0300|Andrii Kylymnyk|Hide sidebar snapshots menu item [ELK-431]
+a04a3c6d2bd8177c87ffd304aea0994168bc0c26|2025-07-03 09:55:19 +0200|valik375|Add locale for the Resources dropdown [ELK-542], Implement translation for Quick exit button on flow [ELK-516]
+21177a0bebd020c6a4e1d9cfb0629d663157a721|2025-07-02 15:42:57 +0200|Yura Omelchuk|do not use bash as magic comment
+be9e1f1818f6e3fb3cbd38fe9f81edeb7f60d0ce|2025-07-02 18:11:28 +0200|Valentyn Zamiliukhin|Invite Members Dropdown Empty After Reload [ELK-549]
+1ff7843ebde5b7fd17099daef7b07c1eaccdd94d|2025-07-02 15:42:57 +0200|Yura Omelchuk|do not use bash as magic comment
+90b79c1a4b55be28400bf67178771060c19ace9d|2025-07-02 16:57:57 +0200|valik375|Cannot add reporter to chat [ELK-524] and fix of snapshot get request version param
+a5e28d3ae2b7644a55d53632741a27c2805d638f|2025-07-02 15:42:57 +0200|Yura Omelchuk|do not use bash as magic comment
+d5e60474d95a535a7398b0ed2ddef6503a1e8e5d|2025-07-02 16:41:55 +0300|Andrii Kylymnyk|languages page title [ELK-526]
+9780608482d5f7237795a6232c0b8ee613f3356d|2025-07-02 14:47:11 +0200|valik375|View version in Snapshot does not work [ELK-548]
+8f818944d3e84e24a4c50b457abd2114df87abd5|2025-07-02 13:17:12 +0200|Valentyn Zamiliukhin|Improve UI for icons in report on mobile [ELK-377]
+de10a7fe6438be0bdc19b2ea4d310e4c75597066|2025-07-02 12:53:11 +0200|valik375|Small design improvements for report attributes & details tab [ELK-380]
+89fa9507feab8f9344725dc04292b9787b37273e|2025-07-02 13:37:21 +0300|Andrii Kylymnyk|fix translations status
+aa19f0a8163af39e5f81962bfaedb41291e3187e|2025-07-02 11:51:58 +0200|valik375|Fix of linked_reports filter
+c61813446fa052f335faf27efa3f5ff65f0e18ad|2025-07-02 11:37:09 +0200|valik375|UI: add filter by report linking [ELK-481]
+c8c763317ecab062a7f249872a69c44243f674d3|2025-07-01 18:03:46 +0300|Andrii Kylymnyk| Reporter replacement locale [ELK-528]
+42ec2e06f009f12f9117e4a81bba86eac8babb64|2025-07-01 14:28:54 +0200|valik375|"Linked Reports" Column Label Not Displayed Correctly in Reports Table [ELK-540]
+277125a456f2316245db2a1bb907de6c5f3fc6e7|2025-07-01 12:43:57 +0200|valik375|Fix translations [ELK-507]
+20ce36ee6f528527f4c89134bce829c5c24a2e32|2025-07-01 11:32:51 +0200|valik375|add border for shadow author avatar
+9f06195c0b9d088c8cb85897ba356128edd49b7a|2025-07-01 11:23:48 +0200|valik375|No padding between flow description text and "Start" button on /select-flow page [ELK-508]
+60a928545103d717651105053907ab7e1f5c4553|2025-07-01 11:12:38 +0200|valik375|code cleanup of shadow author
+f9c54bf76acc36bfcc3cef652494216052889707|2025-07-01 10:34:39 +0200|valik375|UI: individual profiles in group profile activities [ELK-477]
+3416abe6b870171931ea5ad590cdad495e911684|2025-07-01 09:15:16 +0200|Valentyn Zamiliukhin|UI: show individual profile in messages [ELK-476]
+682d8aa78b46beba8e7d6087fa85e7f1ab9796d4|2025-06-30 20:01:15 +0300|Andrii Kylymnyk|Fix mobile burger behaviour [ELK-454]
+b945319b6f7bb2d8883a56c38a0eb919fa7b85bf|2025-06-30 15:54:08 +0200|valik375|Remove Messages form Private Note table [ELK-521]
+6626782fe0574c37d7e809ec1732f80d83f4dec2|2025-06-30 15:20:12 +0200|valik375|Fix translations [ELK-507]
+770118cb4c0510ea561859a5b23f40e3e9586af5|2025-06-30 15:34:29 +0300|Andrii Kylymnyk|language switcher in mobile version [ELK-517]
+fefcd38f77bd8fabfe1e7327b455e2c26cb9dd08|2025-06-30 13:16:33 +0200|valik375|Fix Anonymity modal [ELK-532]
+64a90564b629ceac3f79f03687a7e5ca22a0ecb8|2025-06-30 12:53:34 +0200|valik375|Whistleblowing status is not displayed in report details [ELK-529]
+6c471ed7997381fbd83ee583a37f2c996ec6c830|2025-06-30 12:20:27 +0200|valik375|Whistleblowing status is not displayed in report details [ELK-529]
+7e38999912cf17ce51c33c9a585c8801eb313188|2025-06-30 11:00:53 +0200|valik375|Fix translations [ELK-507]
+825db1ad6ea1858f989273fa50b8e0a63763cd51|2025-06-27 16:48:44 +0200|Valentyn Zamiliukhin|Fix translations [ELK-507]
+bb302398b37311eadbdbe84bcd2ff4507b25df99|2025-06-27 16:10:28 +0200|Valentyn Zamiliukhin|Fix pagination for Audit log [ELK-502]
+69e29265a4dd5eb054cfe089ec45898de4a20157|2025-06-27 17:00:13 +0300|Nazar Komar|Update upload_translations
+3b845ea29b41f678791226b20626ea3b6b86dcdd|2025-06-27 16:19:35 +0300|Nazar Komar|Update locales
+3ab5ee97783d5731ee60ff3ad81ba3065b7204f1|2025-06-27 14:08:43 +0200|valik375|Add Locale for Access Options in Multiple Chats [ELK-527]
+0e16443ec2f2370e619a8c8d0b9cd39748fa8c65|2025-06-27 13:49:16 +0200|Valentyn Zamiliukhin|UI: load linking group reasons from API [ELK-485]
+50600a00430b44c681e738fab72a97b9623108de|2025-06-27 11:57:46 +0300|Andrii Kylymnyk|fix remove from securemail chat button [ELK-523]
+1c6cd808953ccdfbcfe52fda47af185df527b7ad|2025-06-27 11:26:13 +0300|Andrii Kylymnyk|update translation outdated state after successful edit [ELK-520]
+1032db259d7b437eff1febe35e3acc2aba5f68b4|2025-06-26 14:07:59 +0300|Andrii Kylymnyk|code cleanup
+ad02700fe6c037d3faf0bcc66784e621367becc7|2025-06-26 13:33:31 +0300|Andrii Kylymnyk|translate private notes [ELK-513]
+4dc657031ca99a7d3f8a10d124c48ae7688edd13|2025-06-25 18:44:33 +0300|Nazar Komar|Remove exit statement in upload script
+52a05eb0fff2ecae3a1baac319c6acee027401c7|2025-06-25 17:03:14 +0300|Andrii Kylymnyk|fix translations table highlighting [ELK-512]
+24d0e85427acd22511902f1c1c9e4fc41bcff543|2025-06-25 16:06:17 +0300|Andrii Kylymnyk|Add locales for translation [ELK-505]
+b01bfb46bdfbc7db5fa81a97e89c9ec82a9396f2|2025-06-25 10:27:23 +0200|Valentyn Zamiliukhin|UI: Attributes filter logic refactoring [ELK-504]
+b5511144d701c49729be020dae0be87ab2cb6aed|2025-06-24 12:57:25 +0200|valik375|UI: Fix attributes filter [ELK-501]
+9d84e4b0f06292b10576f61a2d123ac7ff0afaa2|2025-06-24 11:00:01 +0200|valik375|UI: create organisation based on template [ELK-428]
+f127e9599577bd8961d8fad73b4032445438ee73|2025-06-24 10:42:10 +0200|Valentyn Zamiliukhin|UI: Fix attributes filter [ELK-501]
+a5ff2ee1110f7d9800871ea9cb4e2e2f48d6d976|2025-06-24 10:06:40 +0200|valik375|Allow edit time for Created at and Show organisation time Zone [ELK-392]
+75586bd3f260ac554662bc583c6ade4f4095ec7f|2025-06-24 01:53:04 +0300|Andrii Kylymnyk|Fix reporter translations [ELK-469]
+f64b273923471ae5dbf8d9a60571f31080d77406|2025-06-23 20:07:43 +0300|Andrii Kylymnyk|fix profile 404 token error [ELK-441]
+73bd189d3d2ae14a1eb504a8882cef4b27576dcd|2025-06-23 15:44:57 +0200|valik375|code cleanup [ELK-444]
+b4fb640b43048c49febcdc4a16a64302284c1bc3|2025-06-23 15:39:55 +0200|valik375|Fix Visual Issues in High Contrast Mode [ELK-444]
+30ac681e3976691f8d19615d971663d064d4eb17|2025-06-23 14:30:39 +0200|valik375|Grammar Mistake on Languages page [ELK-447]
+be2068a7201718e1332c50496cc010de2a925129|2025-06-23 14:26:55 +0200|valik375|Fix of Refactor primary button class name [ELK-466]
+a6d917e3736a1753814fcb43973531d2994f953a|2025-06-23 13:57:03 +0200|valik375|Cannot invite Reporter via Cloud Admin [ELK-463]
+eb0b933e7729359f0ff805cb328150c80b54505c|2025-06-23 13:26:19 +0200|Valentyn Zamiliukhin|Allow edit time for Created at and Show organisation time Zone [ELK-392]
+501969fac76b8c57568312c237770ee7a4ef8c8e|2025-06-23 10:54:32 +0200|Valentyn Zamiliukhin|Refactor primary button class name [ELK-466]
+72c5c668252de68dc405f54be3e1f37a79536ef9|2025-06-21 17:04:31 +0200|valik375|Fix Levels UI [ELK-386]
+da0f71bd04bfda5915d8c16f64107518c053b4a5|2025-06-21 16:55:18 +0200|valik375|Messages tab accessible for redacted chat permissions [ELK-358]
+5920f4ee82be39162102ad370e48d3a9a73b4494|2025-06-20 16:50:59 +0200|Valentyn Zamiliukhin|Refactor bulk selection on reports table for manager [ELK-467]
+ecaadc6b6b0267f4cb1a6094b93ce19fac8fd78d|2025-06-20 12:25:20 +0200|Valentyn Zamiliukhin|refactor route files [ELK-440]
+1c883c75686c04eb4649e8270c75423a5775c80c|2025-06-20 13:08:57 +0300|Andrii Kylymnyk|update translations via websocket [ELK-450]
+43e1277f1eb2228e5dfb30697a7971c33830657b|2025-06-19 16:31:43 +0200|valik375|UI: fix long role name [ELK-414]
+10660c276e15cfba8f1c00f489f9e474bb5d7711|2025-06-19 16:01:57 +0200|valik375|Checkbox Too Close to Label Text [ELK-455]
+7c4b1c8ef038a791bbc368e58e33a687806b29b7|2025-06-19 15:55:38 +0200|Valentyn Zamiliukhin|Locale switch requires full page refresh instead of updating content dynamically [ELK-464], Locale persists from reporter section to manager section; should default to English (en) [ELK-465]
+8682259981eece6dcdb9a8545fad0b812d55d4ba|2025-06-19 15:26:58 +0200|Valentyn Zamiliukhin|Page Freezes When Manager Adds Group Step in Reporting Pathway [ELK-437]
+15addc1a1c80f32c56c079407a82315379134739|2025-06-19 02:16:00 +0300|Andrii Kylymnyk|translation status bar [ELK-462]
+f14c785396f5b6fae59a9ca44965b13ddaa4b8a4|2025-06-18 18:18:19 +0200|Valentyn Zamiliukhin|Preserve Filter State After Page Reload [ELK-255]
+206f33d07d8736e6fd019ee126079d1e627a9470|2025-06-17 13:09:05 +0200|valik375|sort REPORT_REASONS by alphabet
+d8e64a36b2954980a31d6c017c328e94042aaad3|2025-06-17 12:51:58 +0200|Valentyn Zamiliukhin|UI: linking reports [ELK-423, ELK-422, ELK-424]
+37c203ce7f7e781129089f3f37b43f836fde5195|2025-06-17 10:30:02 +0300|Andrii Kylymnyk|make translate button colorful
+4e13110d592481832ec0919e9eee501d236b1c54|2025-06-17 10:18:25 +0300|Andrii Kylymnyk|fix translation with empty string
+90241394e0a517c98d3a0294ee116d487f7f965a|2025-06-16 22:40:09 +0300|Andrii Kylymnyk|update select translations behaviour [ELK-458]
+2df333c6a62e983903474ca145ba782f4f33ac43|2025-06-16 18:42:23 +0300|Nazar Komar|Update response in upload_translations
+c0bd89edee7b904658601120f73789010d6aaaae|2025-06-16 18:24:57 +0300|Nazar Komar|Show response in upload_translations
+c939a893b8d209f7b4667396f5abd93b1944b344|2025-06-13 13:38:56 +0300|Nazar Komar|Submit language files from frontend app during build [ELK-373]
+b0d756f5109046e9390b59668050f2cf1b7be77c|2025-06-13 11:00:36 +0200|Valentyn Zamiliukhin|Handle visibility of analytics blocks on Analytics Overview when all 'Unselected' [ELK-67]
+7d9c98810de4916d34af5ed7c13bfd1c10ece95d|2025-06-13 11:47:09 +0300|Andrii Kylymnyk|Language translations [ELK-421, ELK-420]
+dd2c1ae6c1d32e83ef35bd23f827ed03859f0c7a|2025-06-13 09:27:58 +0200|valik375|Fixes for Allow title and description to be set for analytics print view [ELK-153]
+caf3acf6e6b83d94ffa18098279805a23827ed28|2025-06-13 00:25:27 +0300|Andrii Kylymnyk|apply cancel buttons for report filters [ELK-435]
+1795ac1129a29818f06d3e53387d54d0bb7e0564|2025-06-12 17:44:57 +0200|Valentyn Zamiliukhin|Allow title and description to be set for analytics print view [ELK-153]
+8b5e590d47afca6ca7af484ff67adc59cf01efbe|2025-06-12 10:53:25 +0200|valik375|Error with report filter by report field [ELK-434]
+67c9e665780d695974fa17c633be099d47aec414|2025-06-11 17:35:45 +0300|Andrii Kylymnyk|fix reporter locales
+4a6112fe0096e15b7aa327627037a9d97ec5cbbf|2025-06-10 10:01:53 +0300|Andrii Kylymnyk|Reorganize reporter i18n locale structure
+02315457a75b6ec058e36b3e6bc9e01f508405e8|2025-05-30 16:46:35 +0200|valik375|UI improvements for pagination
+dfa0a39ae516acbd0fb5b97daaaddf8f7d2e4f53|2025-05-30 14:08:29 +0200|valik375|Update Chinese locale in dropdown
+f7e47fddaa03e19a70f93e412be5dee1be80fd48|2025-05-30 13:54:53 +0200|valik375|Update Chinese locale
+1dd4d8dcc1f8de7d8409635970ca54087f821efd|2025-05-30 12:47:35 +0200|valik375|Remove Edit language logic from table
+4fe2d341adf1447be9a63cab6674379950785f1d|2025-05-30 11:47:31 +0200|valik375|code cleanup
+a1003315b802cda0e6bcaec121345ab4d7d929c9|2025-05-30 11:46:40 +0200|valik375|UI: Add feature flag for languages in navigation [ELK-415] UI language table improvements
+cf7d4e58b31df7d9ac2c656a786d42df6b0c8701|2025-05-30 10:21:07 +0200|valik375|UI: languages CRUD [ELK-387] Fixes
+3650ef18dac8a04613dca60e05d8cd0c96f5bbaa|2025-05-30 09:58:28 +0200|Valentyn Zamiliukhin|UI: switch language [ELK-355]
+3b03d3af39a74fd4c3dd8bfc7f908b5df9d0c007|2025-05-29 15:14:48 +0300|Andrii Kylymnyk|Flow step slug [ELK-369, ELK-370]
+a9db299c413f1753b859256c633c2469d2db57df|2025-05-29 11:43:46 +0200|Valentyn Zamiliukhin|UI: languages CRUD [ELK-387]
+089d374a920db523210946b8d24d865b207c6fa5|2025-05-28 19:37:51 +0300|Nazar Komar|Allow snapshots to be exported as part of report export [Reopen] [ELK-220]
+dfc32c724e24d1fd2b8f943d79439e686ed122d6|2025-05-28 18:16:39 +0300|Andrii Kylymnyk|fix slug creation with deleted steps
+d60fe636939b061ba9e8f61e771b327e43607e49|2025-05-28 11:50:23 +0200|valik375|404 Error when Unsharing Snapshot [ELK-395]
+bcbb607aeada982f9e51eb3ce7d622506fa63ee8|2025-05-27 00:26:08 +0300|Andrii Kylymnyk|fix organization timezone selector values [ELK-305]
+237ba3420ec4639344ee4c1fb5fa70491a133b9f|2025-05-26 17:46:14 +0300|Andrii Kylymnyk|Fix extended login session for manager [ELK-301]
+69b9eca7b5bc778788704ba35da6f49af3e337a0|2025-05-26 17:23:54 +0300|Nazar Komar|Allow snapshots to be exported as part of report export [ELK-220]
+8753552f592fb713f1cf213afbc9989d131c8d9c|2025-05-26 11:09:06 +0200|valik375|Remove finger cursor on non-clickable user name in Audit Log [ELK-307]
+f75479fb2dfc63f4b666b206535d4b017893a6a0|2025-05-26 10:55:06 +0200|valik375|Incorrect placeholder and missing filters when filtering Surveys by "closed" status [ELK-308]
+ffdfb65366446f9afb6a12a9eefee0dbe9bcd5a7|2025-05-26 11:54:15 +0300|Andrii Kylymnyk|fix today snapshot variable key [ELK-382]
+ae8a2b5a1fcb81734c602f73dd756787a008a00d|2025-05-26 11:33:45 +0300|Andrii Kylymnyk|fix privacy modal [ELK-326]
+0cd96685d8b0b490f0ebb6fab67557d5bdf75900|2025-05-26 10:14:13 +0200|valik375|Hot Fix of filters
+b7f373fd5f5fb09dff9c116fb77ce3820d7ef027|2025-05-26 09:51:06 +0200|valik375|Name Not Visible on Hover in Group Profiles [ELK-323]
+698ebd330a8634e8ce5e15f07ffd153d28f5d61c|2025-05-23 16:20:44 +0200|valik375|Update of reporter details tab UI
+8f4fdc908108b8d48bb29ddcf1c32a9b97c8782a|2025-05-23 16:05:26 +0300|Andrii Kylymnyk|fix surveys table dropdown position [ELK-306]
+dfef7bb7273cdc27c4d4a1a6a9b692bbbd178cab|2025-05-23 15:02:44 +0200|Valentyn Zamiliukhin|Reporter appears in snapshot sharing dropdown even without configured access [ELK-262]
+000348023bcc1a7a51ae56fc12f5049b87636dd9|2025-05-23 12:11:40 +0200|valik375|Fix Report Attributes change position [ELK-344]
+a36e6bbfaf9c7e06249bd4d1a6f7f151915b78fa|2025-05-23 10:53:38 +0200|Valentyn Zamiliukhin|Update report Details tab design [ELK-295]
+036f63d59d28b58ed412228508b0155fea0aad55|2025-05-23 10:21:28 +0200|valik375|Fix of Dropdown component change setTimeout timeout
+446574aac9c6f0d7c8382f9597b31fd12b3bf261|2025-05-23 10:20:05 +0200|valik375|Fix of Dropdown component change $nextTick => setTimeout
+e6c89d39be3e3064721cbcf3e577bc67f1045dad|2025-05-23 10:06:28 +0200|Valentyn Zamiliukhin|Manager Name Display Improvements [ELK-114]
+a95599093c82a763b8648807642a8a1e2ef697a3|2025-05-23 09:52:37 +0200|Valentyn Zamiliukhin|Handle available tags groups in Automation variables [ELK-378]
+255ea49d4628c413f077d00330b556682f0fbe91|2025-05-22 10:54:38 +0200|valik375|Fix pagination on ahoy events page [ELK-367]
+7fba0f39703df048246bf0fa1c4d9cfdbbe09d18|2025-05-21 17:49:12 +0200|Valentyn Zamiliukhin|Elk 219 UI make filters iterable change useselectfilter [ELK-219]
+55ecb24b61d9db6e25814026f44679021436757f|2025-05-21 18:47:12 +0300|Nazar Komar|Allow .eml files to be uploaded as attachments [ELK-265]
+7e5fb183b4a6189d41a0dbfae22e063d75804648|2025-05-21 17:17:53 +0200|Valentyn Zamiliukhin|Update URL for direct snapshot details page [ELK-289]
+4d365385c54a8aaf6c2371ee776011bd9f284bef|2025-05-21 14:48:33 +0200|Yura Omelchuk|upgrade language file
+8012929509938a4c9645baa43868058a0f7ed2ca|2025-05-21 10:04:48 +0200|valik375|Corespondent is not displayed in Sharing Snapshot when "Secure Mail" feature flag is disabled [ELK-364]
+8ae1bd7e90acbab4a7ffff88f2d4fd1aac68f78f|2025-05-21 09:54:59 +0200|Valentyn Zamiliukhin|Move report attributes into a sidebar like case notes [ELK-296]
+5200b685dcd093203100254f64fe6c5f1e4c3eb3|2025-05-20 16:14:13 +0300|Andrii Kylymnyk|Update packages [ELK-354]

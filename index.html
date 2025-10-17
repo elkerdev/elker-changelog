@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elker Platform Updates - May to October 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #667eea;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .feature {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .feature h3 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-category {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .feature p {
+            color: #555;
+            margin: 0.5rem 0;
+            line-height: 1.8;
+        }
+
+        .feature ul {
+            margin: 1rem 0 0 1.5rem;
+            color: #555;
+        }
+
+        .feature li {
+            margin: 0.5rem 0;
+        }
+
+        .impact {
+            background: #e8f4f8;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-top: 1rem;
+            border-left: 3px solid #3498db;
+        }
+
+        .impact strong {
+            color: #3498db;
+        }
+
+        .nav-links {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 6px;
+            margin: 0 0.5rem;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: #764ba2;
+        }
+
+        .timeline {
+            margin: 2rem 0;
+        }
+
+        .timeline-item {
+            padding-left: 2rem;
+            border-left: 3px solid #667eea;
+            margin: 1.5rem 0;
+            padding-bottom: 1.5rem;
+        }
+
+        .timeline-date {
+            background: #667eea;
+            color: white;
+            padding: 0.25rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            background: white;
+            margin-top: 3rem;
+            border-top: 1px solid #e1e8ed;
+        }
+
+        @media print {
+            body { background: white; }
+            .stat-card, .section { box-shadow: none; border: 1px solid #ddd; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Elker Platform Updates</h1>
+        <p>May 20 - October 17, 2025 | Production Release Summary</p>
+    </div>
+
+    <div class="container">
+        <div class="nav-links">
+            <a href="technical-changelog.html">View Technical Changelog</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <span class="stat-number">860</span>
+                <div class="stat-label">Total Commits</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">430</span>
+                <div class="stat-label">Frontend Commits</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">430</span>
+                <div class="stat-label">Backend Commits</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">~2,900</span>
+                <div class="stat-label">Files Modified</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Executive Summary</h2>
+            <p>This release period represents a major evolution of the Elker platform, with a focus on internationalization, accessibility, cross-organizational collaboration, and user experience improvements. The development effort included comprehensive UI refactoring, new feature development, and extensive bug fixes to improve platform stability and usability.</p>
+
+            <h3 style="margin-top: 2rem; color: #333;">Key Themes</h3>
+            <ul style="margin: 1rem 0 0 2rem; line-height: 2;">
+                <li><strong>Global Expansion:</strong> Complete internationalization infrastructure with automated translations</li>
+                <li><strong>Accessibility:</strong> Voice/phone reporting capability for non-digital users</li>
+                <li><strong>Collaboration:</strong> Cross-organization snapshot sharing and report linking</li>
+                <li><strong>Data Flexibility:</strong> Repeatable and composite fields for complex reporting scenarios</li>
+                <li><strong>User Experience:</strong> Comprehensive UI modernization across 30+ pages</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Major Features & Improvements</h2>
+
+            <div class="feature">
+                <span class="feature-category">Internationalization</span>
+                <h3>Multi-Language Translation System</h3>
+                <p>A comprehensive internationalization infrastructure was implemented to enable the platform to serve organizations worldwide in their native languages.</p>
+                <ul>
+                    <li><strong>OpenAI Integration:</strong> Automated translation using GPT models with batch processing for efficiency</li>
+                    <li><strong>Translation Management:</strong> Web UI for managing translations with status tracking (translated, outdated, missing)</li>
+                    <li><strong>Real-time Updates:</strong> WebSocket-based notifications for translation completion</li>
+                    <li><strong>Comprehensive Coverage:</strong> Translations for flows, surveys, status descriptions, pages, inboxes, and all user-facing content</li>
+                    <li><strong>Database-Backed:</strong> Translation model with versioning and audit trail</li>
+                    <li><strong>Reporter Language Selection:</strong> Automatic language detection and manual selection for reporters</li>
+                    <li><strong>Build Integration:</strong> Frontend language files automatically submitted during deployment</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Enables Elker to serve non-English speaking markets without manual translation work. Organizations can now deploy the platform in any language supported by OpenAI's translation models.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Accessibility</span>
+                <h3>Voice & Phone Reporting System</h3>
+                <p>Complete phone-based reporting capability allowing incident reports to be submitted via telephone, expanding accessibility to users without reliable internet access or digital literacy.</p>
+                <ul>
+                    <li><strong>Phone Channel Support:</strong> New channel type in flow editor for phone-based flows</li>
+                    <li><strong>Phone Number Management:</strong> Full CRUD operations for organizational phone numbers</li>
+                    <li><strong>Calls Log:</strong> Dedicated page for tracking all phone interactions</li>
+                    <li><strong>Voice Selection:</strong> Configurable voice options for automated phone systems</li>
+                    <li><strong>Call Settings:</strong> Organization-level configuration for phone features</li>
+                    <li><strong>Flow Integration:</strong> Phone-compatible step types with voice prompts</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Expands platform accessibility to communities with limited digital infrastructure. Particularly valuable for rural areas, elderly populations, and regions with low smartphone adoption.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Collaboration</span>
+                <h3>Sibling Organization Snapshot Sharing</h3>
+                <p>Organizations can now share snapshots with sibling organizations (related entities within the same parent organization) with full bidirectional synchronization.</p>
+                <ul>
+                    <li><strong>Snapshot Sharing:</strong> Share snapshots between sibling organizations with permission controls</li>
+                    <li><strong>Content Synchronization:</strong> Automatic sync of snapshot content, fields, and metadata</li>
+                    <li><strong>File Synchronization:</strong> Bidirectional file sync - files added or removed in either org reflect in both</li>
+                    <li><strong>User Synchronization:</strong> Automatic addition of users to shared snapshot chats</li>
+                    <li><strong>Message Sync:</strong> Real-time message synchronization across organizations</li>
+                    <li><strong>Report Creation:</strong> Create reports from shared snapshots in receiving organization</li>
+                    <li><strong>Activity Tracking:</strong> Complete audit trail of snapshot sharing and modifications</li>
+                    <li><strong>Notifications:</strong> Automatic notifications when snapshots are shared</li>
+                    <li><strong>Deletion Sync:</strong> Deleting shared snapshot removes it from all sibling organizations</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Enables seamless collaboration between regional offices, departments, or related organizations. Eliminates duplicate data entry and maintains case continuity across organizational boundaries.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Data Management</span>
+                <h3>Repeatable & Composite Report Fields</h3>
+                <p>Advanced field types that support complex data collection scenarios previously requiring workarounds or multiple separate fields.</p>
+                <ul>
+                    <li><strong>Repeatable Fields:</strong> Fields that can be duplicated multiple times (e.g., multiple witnesses, multiple incidents, multiple locations)</li>
+                    <li><strong>Composite Fields:</strong> Fields containing multiple inputs (e.g., address with street, city, postal code)</li>
+                    <li><strong>Reports Table Integration:</strong> Repeatable fields display properly in reports table with count indicators</li>
+                    <li><strong>Analytics Support:</strong> Charts and analytics handle both repeatable and composite field data</li>
+                    <li><strong>Export Compatibility:</strong> XLS and CSV exports properly format repeatable field data</li>
+                    <li><strong>Automation Support:</strong> Repeatable fields available in automation rules and email templates</li>
+                    <li><strong>Validation:</strong> Proper validation for required repeatable fields</li>
+                    <li><strong>Flow Editor:</strong> Visual editor support for configuring repeatable and composite fields</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Improves data quality by allowing structured capture of complex, multi-instance data. Eliminates workarounds like "Witness 1, Witness 2, Witness 3" fields and provides flexible data modeling.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Task Management</span>
+                <h3>Centralized Tasks Page & Enhanced Task Features</h3>
+                <p>Organization-wide task management with comprehensive filtering, searching, and tracking capabilities.</p>
+                <ul>
+                    <li><strong>Tasks Page:</strong> Dedicated page showing all tasks across all reports with filtering and search</li>
+                    <li><strong>Task Categories:</strong> Organize tasks into categories for better organization</li>
+                    <li><strong>Time & Date:</strong> Tasks can now have specific times in addition to dates</li>
+                    <li><strong>Status Indicators:</strong> Visual indicators for overdue, due today, and upcoming tasks</li>
+                    <li><strong>Assignee Filtering:</strong> Filter tasks by assignee, status, category, and date range</li>
+                    <li><strong>Report Integration:</strong> Tasks visible in reports table with count badges</li>
+                    <li><strong>Sorting:</strong> Sort by due date, priority, assignee, or report</li>
+                    <li><strong>Task Templates:</strong> Improved task template system for recurring task patterns</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Provides organization-wide visibility into all pending tasks. Managers can now track all follow-up items across cases in one location, reducing missed deadlines and improving accountability.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Case Management</span>
+                <h3>Report Linking & Grouping</h3>
+                <p>Connect related reports together to identify patterns and track related incidents.</p>
+                <ul>
+                    <li><strong>Linking Groups:</strong> Create groups of related reports with reasons and context</li>
+                    <li><strong>Group Reasons:</strong> Document why reports are linked (same perpetrator, same incident, related events)</li>
+                    <li><strong>Facets & Filters:</strong> Filter reports by linked/unlinked status</li>
+                    <li><strong>Activity Tracking:</strong> History entries when reports are linked or unlinked</li>
+                    <li><strong>Group Management:</strong> View and manage all report groups from reports table</li>
+                    <li><strong>Automatic Grouping:</strong> Linking two reports creates a new group (doesn't add to existing)</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Helps identify serial perpetrators, incident patterns, and related cases. Essential for investigations involving multiple reports about the same individual or connected events.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Partner Integration</span>
+                <h3>Partner Dashboard Enhancements</h3>
+                <p>Improved partner integration capabilities for organizations that share data with external partners.</p>
+                <ul>
+                    <li><strong>Search Functionality:</strong> Text search on partner reports list</li>
+                    <li><strong>Tasks Index:</strong> Partners can view tasks associated with shared reports</li>
+                    <li><strong>Task Synchronization:</strong> Bidirectional sync between partner tasks and Elker tasks</li>
+                    <li><strong>Analytics Support:</strong> Partner analytics now support composite and repeatable fields</li>
+                    <li><strong>Chart Fixes:</strong> Resolved duplicate data in partner analytics charts</li>
+                    <li><strong>Status Display:</strong> Partners see "Closed" status for completed reports</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Strengthens integration with external partners (law enforcement, regulatory bodies, etc.). Reduces manual coordination and ensures partners have up-to-date information.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Analytics & Reporting</span>
+                <h3>Analytics & Export Improvements</h3>
+                <p>Enhanced data analysis and export capabilities to support organizational reporting requirements.</p>
+                <ul>
+                    <li><strong>XLS Export:</strong> Export analytics and reports to Excel format (in addition to CSV)</li>
+                    <li><strong>Composite Field Charts:</strong> Analytics charts properly handle composite field data</li>
+                    <li><strong>Repeatable Field Support:</strong> Charts and tables display repeatable field data accurately</li>
+                    <li><strong>Toggleable Charts:</strong> Show/hide specific field charts in analytics overview</li>
+                    <li><strong>Chart Performance:</strong> Fixed duplicate data issues in charts</li>
+                    <li><strong>Period Filters:</strong> Corrected date range filtering in analytics</li>
+                    <li><strong>Audit Log Export:</strong> Export audit logs with proper date range filtering</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Provides better data analysis tools and export options. Organizations can now generate comprehensive reports for board meetings, audits, and compliance requirements.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Data Quality</span>
+                <h3>Required Report Attributes & Validation</h3>
+                <p>Improved data quality through mandatory field enforcement and better validation.</p>
+                <ul>
+                    <li><strong>Required Fields:</strong> Report attributes can be marked as required</li>
+                    <li><strong>Validation Messages:</strong> User-friendly error messages for validation failures</li>
+                    <li><strong>Snapshot Designation:</strong> Mark which attributes should appear in snapshots</li>
+                    <li><strong>System Fields Protection:</strong> System report attributes cannot be edited or deleted</li>
+                    <li><strong>Field Organization:</strong> System fields displayed separately from custom fields</li>
+                    <li><strong>Duplicate Prevention:</strong> Prevent duplicate slugs and choice names</li>
+                    <li><strong>Error Highlighting:</strong> Visual highlighting of invalid fields during creation</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Ensures critical data is captured for every report. Reduces incomplete reports and improves data quality for analysis and compliance.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Documentation</span>
+                <h3>Snapshot Functionality Improvements</h3>
+                <p>Enhanced snapshot capabilities for point-in-time data capture and template-based reporting.</p>
+                <ul>
+                    <li><strong>Snapshot Cloning:</strong> Clone snapshots with proper content isolation</li>
+                    <li><strong>Same-Org Reports:</strong> Create reports from snapshots within the same organization</li>
+                    <li><strong>Variables System:</strong> Enhanced snapshot variables with composite field support</li>
+                    <li><strong>History Tracking:</strong> View all snapshot modifications and viewing activity</li>
+                    <li><strong>Access Control:</strong> Viewer role cannot edit snapshots</li>
+                    <li><strong>Source Display:</strong> Show snapshot source organization</li>
+                    <li><strong>Correspondent Access:</strong> Correspondents can create reports from snapshots</li>
+                    <li><strong>Token Expiration:</strong> Improved SecureMail snapshot token handling</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Streamlines case documentation workflows. Snapshots can serve as templates for similar incidents, reducing data entry time and ensuring consistency.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Audit & Compliance</span>
+                <h3>File Viewing Status Panel</h3>
+                <p>Track and audit document access within the platform.</p>
+                <ul>
+                    <li><strong>Viewing Tracking:</strong> Track which users have viewed each file</li>
+                    <li><strong>Timestamp Recording:</strong> Record when files were accessed</li>
+                    <li><strong>User Identification:</strong> Show which specific users viewed files</li>
+                    <li><strong>Modal Integration:</strong> Viewing status displayed in file preview modal</li>
+                    <li><strong>Report & Snapshot Support:</strong> Works for both report files and snapshot files</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Provides audit trail for sensitive document access. Important for compliance and understanding information flow within cases.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Privacy</span>
+                <h3>Reporter Anonymity Management</h3>
+                <p>Flexible management of reporter identity and anonymity settings.</p>
+                <ul>
+                    <li><strong>Anonymity Updates:</strong> Managers can change reporter anonymity status from web dashboard</li>
+                    <li><strong>Identity Editing:</strong> Update reporter contact details and identity information</li>
+                    <li><strong>API Support:</strong> Full API endpoints across web, reporting, and mobile interfaces</li>
+                    <li><strong>History Tracking:</strong> Anonymity changes recorded in report history</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Supports evolving privacy needs as cases progress. Allows reporters who initially remained anonymous to later provide identity if they choose.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Authentication</span>
+                <h3>SSO & Authentication Enhancements</h3>
+                <p>Improved single sign-on capabilities and authentication flexibility.</p>
+                <ul>
+                    <li><strong>Hidden SSO Option:</strong> Organizations can hide SSO from login page while keeping it functional</li>
+                    <li><strong>Pathway SSO:</strong> Added pathway_enabled setting for SSO configurations</li>
+                    <li><strong>Direct Link Access:</strong> SSO available via direct link even when hidden</li>
+                    <li><strong>Configuration UI:</strong> Improved SSO settings management interface</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Provides cleaner login experience while maintaining SSO functionality. Useful for organizations with limited SSO adoption or during phased rollouts.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Communication</span>
+                <h3>Messenger & Chat Improvements</h3>
+                <p>Enhanced real-time communication features with better multilingual support.</p>
+                <ul>
+                    <li><strong>Original Language Display:</strong> Show original language text alongside translations</li>
+                    <li><strong>Emoji Support:</strong> Improved emoji picker across all language settings</li>
+                    <li><strong>Messenger Localization:</strong> Full translation of messenger interface</li>
+                    <li><strong>Group Avatars:</strong> Display user avatars in group messages</li>
+                    <li><strong>Individual Profiles:</strong> Show individual profiles in group chats and case notes</li>
+                    <li><strong>Chat Participants:</strong> Fixed incorrect display of chat participants</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Improves communication clarity in multilingual environments. Users can see both translated and original text to ensure accurate understanding.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">User Experience</span>
+                <h3>Comprehensive UI Refactoring</h3>
+                <p>Platform-wide user interface modernization affecting over 30 pages.</p>
+                <ul>
+                    <li><strong>Reports Table:</strong> Complete redesign with improved filtering and sorting</li>
+                    <li><strong>Report Details:</strong> Modernized report details page layout</li>
+                    <li><strong>Report History:</strong> Improved activity timeline with better formatting</li>
+                    <li><strong>Inboxes:</strong> Refactored inbox management interface</li>
+                    <li><strong>User Management:</strong> Updated user and team management pages</li>
+                    <li><strong>Analytics Overview:</strong> Redesigned analytics dashboard</li>
+                    <li><strong>Audit Log:</strong> Improved audit log viewing and filtering</li>
+                    <li><strong>Settings Pages:</strong> Modernized all settings pages (tags, statuses, roles, levels, report types)</li>
+                    <li><strong>Surveys:</strong> Updated survey creation and response pages</li>
+                    <li><strong>Mobile Responsiveness:</strong> Fixed mobile layout issues across platform</li>
+                    <li><strong>Modal Improvements:</strong> Better modal positioning and behavior</li>
+                    <li><strong>Navigation:</strong> Improved sidebar navigation and tabs</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Delivers consistent, modern user experience across the platform. Reduces cognitive load through standardized patterns and improves mobile usability.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Search & Discovery</span>
+                <h3>Enhanced Search & Filtering</h3>
+                <p>Improved ability to find and filter data across the platform.</p>
+                <ul>
+                    <li><strong>Dropdown Search:</strong> Text search in long dropdown lists (reporter flows)</li>
+                    <li><strong>Composite Field Filters:</strong> Filter reports by composite field values</li>
+                    <li><strong>Period Filters:</strong> Fixed date range filtering issues</li>
+                    <li><strong>Report Field Filtering:</strong> Improved filtering in analytics by report fields</li>
+                    <li><strong>Attribute Filters:</strong> Enhanced report attribute filtering with better structure</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Reduces time to find specific information. Particularly valuable for large organizations with extensive data and many dropdown options.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Form Building</span>
+                <h3>Flow Editor Enhancements</h3>
+                <p>Improved report form builder with better validation and user experience.</p>
+                <ul>
+                    <li><strong>Simplified Step Creation:</strong> Streamlined dropdown for adding new steps</li>
+                    <li><strong>Required Field Indicators:</strong> Visual indicators for required fields</li>
+                    <li><strong>Choice Validation:</strong> Better validation for multiple choice options</li>
+                    <li><strong>Auto-fill Support:</strong> "Other" option now supported in auto-fills</li>
+                    <li><strong>Composite Fields:</strong> Visual editor for composite field configuration</li>
+                    <li><strong>Phone Channel Filtering:</strong> Description step excluded from phone channel flows</li>
+                    <li><strong>Error Messages:</strong> Improved, user-friendly error messages</li>
+                    <li><strong>Template Creation:</strong> Fixed flow creation from templates</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Makes form creation more intuitive and reduces configuration errors. Non-technical users can create sophisticated forms without developer assistance.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Administration</span>
+                <h3>Template-Based Organization Creation</h3>
+                <p>Accelerate new organization onboarding with pre-configured templates.</p>
+                <ul>
+                    <li><strong>Organization Templates:</strong> Create organizations from templates with pre-configured settings</li>
+                    <li><strong>Flow Copying:</strong> Templates include flows and form configurations</li>
+                    <li><strong>Field Copying:</strong> Report attributes copied from template</li>
+                    <li><strong>Settings Inheritance:</strong> Organization settings inherited from template</li>
+                    <li><strong>Improved UI:</strong> Better organization creation page with template selection</li>
+                    <li><strong>Default Data:</strong> Proper handling of default data for new organizations</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Reduces organization setup time from hours to minutes. Ensures consistency across similar organizations and reduces configuration errors.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Automation</span>
+                <h3>Automation & Notification Enhancements</h3>
+                <p>More powerful and reliable automation capabilities.</p>
+                <ul>
+                    <li><strong>Report Attributes in Emails:</strong> Include report attribute values in automation emails</li>
+                    <li><strong>Snapshot Automations:</strong> Trigger automations on unread snapshot messages</li>
+                    <li><strong>Notification Fixes:</strong> Resolved notification delivery issues across various scenarios</li>
+                    <li><strong>Reporter Notifications:</strong> Fixed notification settings for reporters</li>
+                    <li><strong>Assignment Notifications:</strong> Improved notifications for snapshot assignments</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Enables more targeted, context-aware automated communications. Reduces manual notification work and ensures stakeholders receive timely updates.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">File Management</span>
+                <h3>File & Attachment Improvements</h3>
+                <p>Expanded file support and improved document security.</p>
+                <ul>
+                    <li><strong>EML File Support:</strong> Upload and attach .eml email files</li>
+                    <li><strong>Document Previews:</strong> Preview doc and excel files in browser</li>
+                    <li><strong>EXIF Stripping:</strong> Remove EXIF metadata from profile pictures for privacy</li>
+                    <li><strong>Preview Fixes:</strong> Fixed 500 errors when previewing snapshot files</li>
+                    <li><strong>Link Detection:</strong> Automatically detect and linkify URLs in text attributes</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Supports more file types commonly used in investigations. EXIF stripping protects user privacy by removing location and device data from photos.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Security</span>
+                <h3>Security Enhancements</h3>
+                <p>Strengthened platform security and access controls.</p>
+                <ul>
+                    <li><strong>CSV Injection Prevention:</strong> Sanitize profile names to prevent CSV injection attacks</li>
+                    <li><strong>EXIF Metadata Removal:</strong> Strip metadata from images to protect privacy</li>
+                    <li><strong>Viewer Restrictions:</strong> Viewer role cannot edit reports or snapshots</li>
+                    <li><strong>Report Tab Permissions:</strong> Fixed permission checks for report tabs</li>
+                    <li><strong>Access Control:</strong> Improved role-based access enforcement</li>
+                    <li><strong>Rollbar Filtering:</strong> Fixed overly aggressive data filtering in error logs</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Protects against security vulnerabilities and ensures proper data privacy. Maintains clear access boundaries between user roles.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Performance</span>
+                <h3>Performance Optimizations</h3>
+                <p>Backend optimizations to improve platform speed and scalability.</p>
+                <ul>
+                    <li><strong>Snapshot Index:</strong> Optimized snapshot listing queries</li>
+                    <li><strong>Report Fields:</strong> Improved report fields index performance</li>
+                    <li><strong>Reduced N+1 Queries:</strong> Added eager loading to prevent multiple database queries</li>
+                    <li><strong>Database Indexes:</strong> Added missing indexes and fixed foreign key types</li>
+                    <li><strong>Analytics Queries:</strong> Optimized analytics data retrieval</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Improves page load times and responsiveness. Supports larger organizations with more data without performance degradation.
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-category">Infrastructure</span>
+                <h3>Technical Infrastructure Updates</h3>
+                <p>Platform maintenance and dependency updates.</p>
+                <ul>
+                    <li><strong>Ruby 3.4.4:</strong> Updated to latest Ruby version</li>
+                    <li><strong>Rails Dependencies:</strong> Updated gems including rack, sinatra, vite</li>
+                    <li><strong>Frontend Dependencies:</strong> Updated axios, element-plus, vite, and other npm packages</li>
+                    <li><strong>Semaphore Configuration:</strong> Updated CI/CD configuration</li>
+                    <li><strong>Docker Updates:</strong> Improved Dockerfile configurations</li>
+                </ul>
+                <div class="impact">
+                    <strong>Impact:</strong> Maintains platform security through dependency updates. Improves stability and access to latest framework features.
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>Bug Fixes & Stability Improvements</h2>
+            <p>In addition to new features, this release includes extensive bug fixes to improve platform reliability:</p>
+            <ul style="margin: 1rem 0 0 2rem; line-height: 2;">
+                <li>Fixed audit log pagination issues</li>
+                <li>Resolved apex charts rendering errors</li>
+                <li>Corrected modal positioning and z-index problems</li>
+                <li>Fixed translation display issues in various contexts</li>
+                <li>Corrected report history activity texts</li>
+                <li>Fixed delete modal confirmation messages</li>
+                <li>Resolved mobile layout problems across multiple pages</li>
+                <li>Fixed task due date display issues</li>
+                <li>Corrected group step filtering in report builder</li>
+                <li>Fixed securemail session expiration handling</li>
+                <li>Resolved period filter issues in analytics</li>
+                <li>Fixed report attributes count display in tables</li>
+                <li>Corrected nested option handling in multiple choice attributes</li>
+                <li>Fixed language dropdown performance with many languages</li>
+                <li>Resolved snapshot clone content isolation issues</li>
+                <li>Fixed reporter involvement section display logic</li>
+                <li>Corrected join link page errors</li>
+                <li>Fixed flow editor modal default tag behavior</li>
+                <li>Resolved inbox phone number validation issues</li>
+                <li>Fixed out of office display for group inboxes</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Development Statistics</h2>
+            <div class="stats">
+                <div class="stat-card">
+                    <span class="stat-number">150</span>
+                    <div class="stat-label">Days of Development</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">982</span>
+                    <div class="stat-label">Frontend Files Changed</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">1,916</span>
+                    <div class="stat-label">Backend Files Changed</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">3</span>
+                    <div class="stat-label">Primary Contributors</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p><strong>Elker Platform Updates</strong> | May 20 - October 17, 2025</p>
+        <p>Generated on October 17, 2025</p>
+    </footer>
+</body>
+</html>

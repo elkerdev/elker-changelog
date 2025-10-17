@@ -1,0 +1,7 @@
+# Temporary files
+*-part1.txt
+*-part2.txt
+generate-changelog.sh
+
+# System files
+.DS_Store
