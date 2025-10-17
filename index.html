@@ -40,6 +40,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 2rem;
+            margin-left: 320px;
         }
 
         .stats {
@@ -135,15 +136,15 @@
         }
 
         .impact {
-            background: #e8f4f8;
+            background: #e8f5e9;
             padding: 1rem;
             border-radius: 6px;
             margin-top: 1rem;
-            border-left: 3px solid #3498db;
+            border-left: 3px solid #4caf50;
         }
 
         .impact strong {
-            color: #3498db;
+            color: #2e7d32;
         }
 
         .nav-links {
@@ -197,9 +198,115 @@
             border-top: 1px solid #e1e8ed;
         }
 
+        .theme-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .theme-card {
+            background: #f8f9ff;
+            border: 1px solid #e0e3f5;
+            color: #333;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .theme-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+            border-color: #667eea;
+        }
+
+        .theme-card h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .theme-card p {
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .page-nav {
+            position: fixed;
+            left: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            max-width: 250px;
+            max-height: 80vh;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+
+        .page-nav h4 {
+            font-size: 0.9rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+
+        .page-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .page-nav li {
+            margin: 0.5rem 0;
+        }
+
+        .page-nav a {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.85rem;
+            display: block;
+            padding: 0.4rem 0.5rem;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .page-nav a:hover {
+            background: #f8f9fa;
+            color: #667eea;
+            padding-left: 1rem;
+        }
+
+        .page-nav a.active {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 1400px) {
+            .page-nav {
+                display: none;
+            }
+
+            .container {
+                margin-left: auto;
+            }
+        }
+
         @media print {
             body { background: white; }
             .stat-card, .section { box-shadow: none; border: 1px solid #ddd; }
+            .page-nav { display: none; }
         }
     </style>
 </head>
@@ -208,6 +315,35 @@
         <h1>Elker Platform Updates</h1>
         <p>May 20 - October 17, 2025 | Production Release Summary</p>
     </div>
+
+    <nav class="page-nav">
+        <h4>Quick Navigation</h4>
+        <ul>
+            <li><a href="#translation-system">Multi-Language Translation</a></li>
+            <li><a href="#voice-reporting">Voice & Phone Reporting</a></li>
+            <li><a href="#snapshot-sharing">Snapshot Sharing</a></li>
+            <li><a href="#repeatable-fields">Repeatable & Composite Fields</a></li>
+            <li><a href="#tasks">Centralized Tasks</a></li>
+            <li><a href="#report-linking">Report Linking</a></li>
+            <li><a href="#partner-dashboard">Partner Dashboard</a></li>
+            <li><a href="#analytics-export">Analytics & Export</a></li>
+            <li><a href="#data-validation">Data Validation</a></li>
+            <li><a href="#snapshots">Snapshot Features</a></li>
+            <li><a href="#file-viewing">File Viewing Status</a></li>
+            <li><a href="#reporter-anonymity">Reporter Anonymity</a></li>
+            <li><a href="#sso-auth">SSO & Authentication</a></li>
+            <li><a href="#messenger">Messenger & Chat</a></li>
+            <li><a href="#ui-refactoring">UI Refactoring</a></li>
+            <li><a href="#search-filtering">Search & Filtering</a></li>
+            <li><a href="#flow-editor">Flow Editor</a></li>
+            <li><a href="#org-templates">Organization Templates</a></li>
+            <li><a href="#automation">Automation</a></li>
+            <li><a href="#file-management">File Management</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#performance">Performance</a></li>
+            <li><a href="#infrastructure">Infrastructure</a></li>
+        </ul>
+    </nav>
 
     <div class="container">
         <div class="nav-links">
@@ -235,25 +371,90 @@
 
         <div class="section">
             <h2>Executive Summary</h2>
-            <p>This release period represents a major evolution of the Elker platform, with a focus on internationalization, accessibility, cross-organizational collaboration, and user experience improvements. The development effort included comprehensive UI refactoring, new feature development, and extensive bug fixes to improve platform stability and usability.</p>
-
-            <h3 style="margin-top: 2rem; color: #333;">Key Themes</h3>
-            <ul style="margin: 1rem 0 0 2rem; line-height: 2;">
-                <li><strong>Global Expansion:</strong> Complete internationalization infrastructure with automated translations</li>
-                <li><strong>Accessibility:</strong> Voice/phone reporting capability for non-digital users</li>
-                <li><strong>Collaboration:</strong> Cross-organization snapshot sharing and report linking</li>
-                <li><strong>Data Flexibility:</strong> Repeatable and composite fields for complex reporting scenarios</li>
-                <li><strong>User Experience:</strong> Comprehensive UI modernization across 30+ pages</li>
-            </ul>
+            <h3 style="margin-top: 1rem; color: #333;">Key Themes</h3>
+            <div class="theme-cards">
+                <div class="theme-card">
+                    <h3>Internationalisation & Global Reach</h3>
+                    <p>Complete internationalisation infrastructure with automated AI-powered translation, translation management UI, and support for all user-facing content.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Accessibility & Alternative Channels</h3>
+                    <p>Complete phone-based reporting capability with phone channel support, number management, and voice prompts—expanding access to users without reliable internet or digital literacy.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Cross-Organisational Collaboration</h3>
+                    <p>Sibling organisation snapshot sharing with full bidirectional synchronisation of content, files, users, and messages for seamless collaboration between related entities.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Advanced Data Modelling</h3>
+                    <p>Repeatable and composite field types for complex data collection, integrated throughout reports tables, analytics, exports, and automation rules.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Case Management Tools</h3>
+                    <p>Report linking and grouping to connect related reports and identify patterns, plus enhanced snapshot features for managing complex cases.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Organisation-Wide Task Management</h3>
+                    <p>Centralised tasks page with comprehensive filtering, categorisation, time/date scheduling, visual status indicators, and improved task templates.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Analytics & Data Export</h3>
+                    <p>Enhanced analytics with XLS export, proper handling of complex fields, toggleable charts, improved filters, and audit log export capabilities.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>User Experience Modernisation</h3>
+                    <p>Platform-wide UI refactoring affecting 30+ pages with consistent, modern interface, improved mobile responsiveness, and standardised navigation patterns.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Partner Integration</h3>
+                    <p>Enhanced partner dashboard with text search, tasks index, bidirectional task synchronisation, and proper status displays for external partners.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Security & Compliance</h3>
+                    <p>Multiple security enhancements including CSV injection prevention, EXIF metadata removal, role restrictions, and file viewing audit trails.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Form Building</h3>
+                    <p>Flow editor enhancements with simplified step creation, visual indicators, better validation, and improved error messages for intuitive form creation.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Authentication & Access</h3>
+                    <p>SSO improvements with hidden login options, pathway settings, and flexible reporter anonymity management with complete change tracking.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Communication</h3>
+                    <p>Messenger improvements with original language display alongside translations, enhanced emoji support, and full interface localisation.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Organisational Setup</h3>
+                    <p>Template-based organisation creation with pre-configured flows, forms, and settings—reducing setup time from hours to minutes.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Automation</h3>
+                    <p>Enhanced automation with report attributes in emails, snapshot message triggers, and improved notification delivery for context-aware communications.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>File Management</h3>
+                    <p>Expanded file support for .eml files, document previews, EXIF stripping for privacy, and automatic URL linkification.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Search & Filtering</h3>
+                    <p>Enhanced search with text search in long dropdowns, composite field filters, and improved filtering throughout analytics and reports.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Performance & Scalability</h3>
+                    <p>Backend optimisations including improved queries, reduced N+1 queries, added database indexes, and optimised analytics for better speed.</p>
+                </div>
+            </div>
         </div>
 
         <div class="section">
             <h2>Major Features & Improvements</h2>
 
-            <div class="feature">
-                <span class="feature-category">Internationalization</span>
+            <div id="translation-system" class="feature">
+                <span class="feature-category">Internationalisation</span>
                 <h3>Multi-Language Translation System</h3>
-                <p>A comprehensive internationalization infrastructure was implemented to enable the platform to serve organizations worldwide in their native languages.</p>
+                <p>A comprehensive internationalisation infrastructure was implemented to enable the platform to serve organisations worldwide in their native languages.</p>
                 <ul>
                     <li><strong>OpenAI Integration:</strong> Automated translation using GPT models with batch processing for efficiency</li>
                     <li><strong>Translation Management:</strong> Web UI for managing translations with status tracking (translated, outdated, missing)</li>
@@ -264,11 +465,11 @@
                     <li><strong>Build Integration:</strong> Frontend language files automatically submitted during deployment</li>
                 </ul>
                 <div class="impact">
-                    <strong>Impact:</strong> Enables Elker to serve non-English speaking markets without manual translation work. Organizations can now deploy the platform in any language supported by OpenAI's translation models.
+                    <strong>Impact:</strong> Enables Elker to serve non-English speaking markets without manual translation work. Organisations can now deploy the platform in any language supported by OpenAI's translation models.
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="voice-reporting" class="feature">
                 <span class="feature-category">Accessibility</span>
                 <h3>Voice & Phone Reporting System</h3>
                 <p>Complete phone-based reporting capability allowing incident reports to be submitted via telephone, expanding accessibility to users without reliable internet access or digital literacy.</p>
@@ -285,27 +486,27 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="snapshot-sharing" class="feature">
                 <span class="feature-category">Collaboration</span>
-                <h3>Sibling Organization Snapshot Sharing</h3>
-                <p>Organizations can now share snapshots with sibling organizations (related entities within the same parent organization) with full bidirectional synchronization.</p>
+                <h3>Sibling Organisation Snapshot Sharing</h3>
+                <p>Organisations can now share snapshots with sibling organisations (related entities within the same parent organisation) with full bidirectional synchronisation.</p>
                 <ul>
-                    <li><strong>Snapshot Sharing:</strong> Share snapshots between sibling organizations with permission controls</li>
-                    <li><strong>Content Synchronization:</strong> Automatic sync of snapshot content, fields, and metadata</li>
-                    <li><strong>File Synchronization:</strong> Bidirectional file sync - files added or removed in either org reflect in both</li>
-                    <li><strong>User Synchronization:</strong> Automatic addition of users to shared snapshot chats</li>
-                    <li><strong>Message Sync:</strong> Real-time message synchronization across organizations</li>
-                    <li><strong>Report Creation:</strong> Create reports from shared snapshots in receiving organization</li>
+                    <li><strong>Snapshot Sharing:</strong> Share snapshots between sibling organisations with permission controls</li>
+                    <li><strong>Content Synchronisation:</strong> Automatic sync of snapshot content, fields, and metadata</li>
+                    <li><strong>File Synchronisation:</strong> Bidirectional file sync - files added or removed in either org reflect in both</li>
+                    <li><strong>User Synchronisation:</strong> Automatic addition of users to shared snapshot chats</li>
+                    <li><strong>Message Sync:</strong> Real-time message synchronisation across organisations</li>
+                    <li><strong>Report Creation:</strong> Create reports from shared snapshots in receiving organisation</li>
                     <li><strong>Activity Tracking:</strong> Complete audit trail of snapshot sharing and modifications</li>
                     <li><strong>Notifications:</strong> Automatic notifications when snapshots are shared</li>
-                    <li><strong>Deletion Sync:</strong> Deleting shared snapshot removes it from all sibling organizations</li>
+                    <li><strong>Deletion Sync:</strong> Deleting shared snapshot removes it from all sibling organisations</li>
                 </ul>
                 <div class="impact">
-                    <strong>Impact:</strong> Enables seamless collaboration between regional offices, departments, or related organizations. Eliminates duplicate data entry and maintains case continuity across organizational boundaries.
+                    <strong>Impact:</strong> Enables seamless collaboration between regional offices, departments, or related organisations. Eliminates duplicate data entry and maintains case continuity across organisational boundaries.
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="repeatable-fields" class="feature">
                 <span class="feature-category">Data Management</span>
                 <h3>Repeatable & Composite Report Fields</h3>
                 <p>Advanced field types that support complex data collection scenarios previously requiring workarounds or multiple separate fields.</p>
@@ -324,7 +525,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="tasks" class="feature">
                 <span class="feature-category">Task Management</span>
                 <h3>Centralized Tasks Page & Enhanced Task Features</h3>
                 <p>Organization-wide task management with comprehensive filtering, searching, and tracking capabilities.</p>
@@ -339,11 +540,11 @@
                     <li><strong>Task Templates:</strong> Improved task template system for recurring task patterns</li>
                 </ul>
                 <div class="impact">
-                    <strong>Impact:</strong> Provides organization-wide visibility into all pending tasks. Managers can now track all follow-up items across cases in one location, reducing missed deadlines and improving accountability.
+                    <strong>Impact:</strong> Provides organisation-wide visibility into all pending tasks. Managers can now track all follow-up items across cases in one location, reducing missed deadlines and improving accountability.
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="report-linking" class="feature">
                 <span class="feature-category">Case Management</span>
                 <h3>Report Linking & Grouping</h3>
                 <p>Connect related reports together to identify patterns and track related incidents.</p>
@@ -360,7 +561,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="partner-dashboard" class="feature">
                 <span class="feature-category">Partner Integration</span>
                 <h3>Partner Dashboard Enhancements</h3>
                 <p>Improved partner integration capabilities for organizations that share data with external partners.</p>
@@ -377,7 +578,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="analytics-export" class="feature">
                 <span class="feature-category">Analytics & Reporting</span>
                 <h3>Analytics & Export Improvements</h3>
                 <p>Enhanced data analysis and export capabilities to support organizational reporting requirements.</p>
@@ -391,11 +592,11 @@
                     <li><strong>Audit Log Export:</strong> Export audit logs with proper date range filtering</li>
                 </ul>
                 <div class="impact">
-                    <strong>Impact:</strong> Provides better data analysis tools and export options. Organizations can now generate comprehensive reports for board meetings, audits, and compliance requirements.
+                    <strong>Impact:</strong> Provides better data analysis tools and export options. Organisations can now generate comprehensive reports for board meetings, audits, and compliance requirements.
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="data-validation" class="feature">
                 <span class="feature-category">Data Quality</span>
                 <h3>Required Report Attributes & Validation</h3>
                 <p>Improved data quality through mandatory field enforcement and better validation.</p>
@@ -413,7 +614,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="snapshots" class="feature">
                 <span class="feature-category">Documentation</span>
                 <h3>Snapshot Functionality Improvements</h3>
                 <p>Enhanced snapshot capabilities for point-in-time data capture and template-based reporting.</p>
@@ -432,7 +633,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="file-viewing" class="feature">
                 <span class="feature-category">Audit & Compliance</span>
                 <h3>File Viewing Status Panel</h3>
                 <p>Track and audit document access within the platform.</p>
@@ -448,7 +649,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="reporter-anonymity" class="feature">
                 <span class="feature-category">Privacy</span>
                 <h3>Reporter Anonymity Management</h3>
                 <p>Flexible management of reporter identity and anonymity settings.</p>
@@ -463,22 +664,22 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="sso-auth" class="feature">
                 <span class="feature-category">Authentication</span>
                 <h3>SSO & Authentication Enhancements</h3>
                 <p>Improved single sign-on capabilities and authentication flexibility.</p>
                 <ul>
-                    <li><strong>Hidden SSO Option:</strong> Organizations can hide SSO from login page while keeping it functional</li>
+                    <li><strong>Hidden SSO Option:</strong> Organisations can hide SSO from login page while keeping it functional</li>
                     <li><strong>Pathway SSO:</strong> Added pathway_enabled setting for SSO configurations</li>
                     <li><strong>Direct Link Access:</strong> SSO available via direct link even when hidden</li>
                     <li><strong>Configuration UI:</strong> Improved SSO settings management interface</li>
                 </ul>
                 <div class="impact">
-                    <strong>Impact:</strong> Provides cleaner login experience while maintaining SSO functionality. Useful for organizations with limited SSO adoption or during phased rollouts.
+                    <strong>Impact:</strong> Provides cleaner login experience while maintaining SSO functionality. Useful for organisations with limited SSO adoption or during phased rollouts.
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="messenger" class="feature">
                 <span class="feature-category">Communication</span>
                 <h3>Messenger & Chat Improvements</h3>
                 <p>Enhanced real-time communication features with better multilingual support.</p>
@@ -495,7 +696,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="ui-refactoring" class="feature">
                 <span class="feature-category">User Experience</span>
                 <h3>Comprehensive UI Refactoring</h3>
                 <p>Platform-wide user interface modernization affecting over 30 pages.</p>
@@ -518,7 +719,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="search-filtering" class="feature">
                 <span class="feature-category">Search & Discovery</span>
                 <h3>Enhanced Search & Filtering</h3>
                 <p>Improved ability to find and filter data across the platform.</p>
@@ -534,7 +735,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="flow-editor" class="feature">
                 <span class="feature-category">Form Building</span>
                 <h3>Flow Editor Enhancements</h3>
                 <p>Improved report form builder with better validation and user experience.</p>
@@ -553,24 +754,24 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="org-templates" class="feature">
                 <span class="feature-category">Administration</span>
-                <h3>Template-Based Organization Creation</h3>
-                <p>Accelerate new organization onboarding with pre-configured templates.</p>
+                <h3>Template-Based Organisation Creation</h3>
+                <p>Accelerate new organisation onboarding with pre-configured templates.</p>
                 <ul>
-                    <li><strong>Organization Templates:</strong> Create organizations from templates with pre-configured settings</li>
+                    <li><strong>Organisation Templates:</strong> Create organisations from templates with pre-configured settings</li>
                     <li><strong>Flow Copying:</strong> Templates include flows and form configurations</li>
                     <li><strong>Field Copying:</strong> Report attributes copied from template</li>
-                    <li><strong>Settings Inheritance:</strong> Organization settings inherited from template</li>
-                    <li><strong>Improved UI:</strong> Better organization creation page with template selection</li>
-                    <li><strong>Default Data:</strong> Proper handling of default data for new organizations</li>
+                    <li><strong>Settings Inheritance:</strong> Organisation settings inherited from template</li>
+                    <li><strong>Improved UI:</strong> Better organisation creation page with template selection</li>
+                    <li><strong>Default Data:</strong> Proper handling of default data for new organisations</li>
                 </ul>
                 <div class="impact">
-                    <strong>Impact:</strong> Reduces organization setup time from hours to minutes. Ensures consistency across similar organizations and reduces configuration errors.
+                    <strong>Impact:</strong> Reduces organisation setup time from hours to minutes. Ensures consistency across similar organisations and reduces configuration errors.
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="automation" class="feature">
                 <span class="feature-category">Automation</span>
                 <h3>Automation & Notification Enhancements</h3>
                 <p>More powerful and reliable automation capabilities.</p>
@@ -586,7 +787,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="file-management" class="feature">
                 <span class="feature-category">File Management</span>
                 <h3>File & Attachment Improvements</h3>
                 <p>Expanded file support and improved document security.</p>
@@ -602,7 +803,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="security" class="feature">
                 <span class="feature-category">Security</span>
                 <h3>Security Enhancements</h3>
                 <p>Strengthened platform security and access controls.</p>
@@ -619,23 +820,23 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="performance" class="feature">
                 <span class="feature-category">Performance</span>
-                <h3>Performance Optimizations</h3>
-                <p>Backend optimizations to improve platform speed and scalability.</p>
+                <h3>Performance Optimisations</h3>
+                <p>Backend optimisations to improve platform speed and scalability.</p>
                 <ul>
-                    <li><strong>Snapshot Index:</strong> Optimized snapshot listing queries</li>
+                    <li><strong>Snapshot Index:</strong> Optimised snapshot listing queries</li>
                     <li><strong>Report Fields:</strong> Improved report fields index performance</li>
                     <li><strong>Reduced N+1 Queries:</strong> Added eager loading to prevent multiple database queries</li>
                     <li><strong>Database Indexes:</strong> Added missing indexes and fixed foreign key types</li>
-                    <li><strong>Analytics Queries:</strong> Optimized analytics data retrieval</li>
+                    <li><strong>Analytics Queries:</strong> Optimised analytics data retrieval</li>
                 </ul>
                 <div class="impact">
-                    <strong>Impact:</strong> Improves page load times and responsiveness. Supports larger organizations with more data without performance degradation.
+                    <strong>Impact:</strong> Improves page load times and responsiveness. Supports larger organisations with more data without performance degradation.
                 </div>
             </div>
 
-            <div class="feature">
+            <div id="infrastructure" class="feature">
                 <span class="feature-category">Infrastructure</span>
                 <h3>Technical Infrastructure Updates</h3>
                 <p>Platform maintenance and dependency updates.</p>
